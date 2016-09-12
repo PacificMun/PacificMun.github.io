@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>LoN</title>
+    
+    <link href="../../css/bootstrap.min.css" rel="stylesheet">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="../../css/font-awesome.min.css" rel="stylesheet">
+    <link href="../../main.css" rel="stylesheet">
+    <link href="../../css/nav.css" rel="stylesheet">
+    <link href="../../css/committeeCSS/temp.css" rel="stylesheet">
+</head>
+<body>
+    <a id="back-to-top" href="#" class="btn btn-primary btn-lg back-to-top" role="button" title="Click to return on the top page" data-toggle="tooltip" data-placement="left"><i class="fa fa-anchor"></i></a>
+    
+    <nav class="navbar navbar-default-blue navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle white" data-toggle="collapse" data-target="#myNavbar">
+                    <i class="fa fa-gavel white navbari"></i>
+                </button>
+                <a class="navbar-brand" href="../../index.html"><i class="fa fa-gavel white"></i>PacificMUN</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="../conf.html">CONFERENCE</a></li>
+                    <li><a href="../com.html">COMMITTEES</a></li>
+                    <li><a href="../reg.html">REGISTRATION</a></li>
+                    <li><a href="../spons.html" class="navsponsorA">SPONSORS</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- Committee Overview -->
+    <div class="ComOverview container">
+        <h1 class="Comh1">League Of Nations</h1>
+        <p>The League of Nations was created in the immediate aftermath of one of history’s most tragic wars. A war so horrible that at it’s end, with the surrender of the Triple Alliance on November 11th, 1918, observers coined it the “war to end all wars.” So distraught was the continent of Europe and indeed the world at the scope of the Great War's brutality; that the leaders of the world vowed to make the continent and the rest of the planet “safe for democracy.”  This rhetoric pushed so passionately by United States President Woodrow Wilson gave fruit to his famous fourteen points speech- the cornerstone of which was an international forum where conflicts could be resolved not with war and bloodshed, but by peace and diplomacy. </p>
+        <p>Being the first attempt of its kind; the League of Nations had many flaws. It had no way to consistent way to enforce its resolutions, no independent standing army and was deeply reliant on The Great Powers (France, The United Kingdom and the United States) for arms, funding and soldiers.  It had the mandate of ensuring international peace; any violence or declaration of war was viewed as failure. If a dispute arose, the League could take actions under its Covenant- known as its sanctions. </p>
+        <p>Questions, inquiries, and position papers about this committee can be emailed to<a href="#">@pacificmun.org</a></p>
+    </div>
+    
+    <!-- Committee Backgrounders-->
+    <div class="ComBackgrounder container">
+        <h1 class="Comh1">Topic Backgrounders</h1>
+        <a href="#" class="col-sm-12 TopicA">Topic A: The Inclusion of the Soviet Union</a>
+        <a href="#" class="col-sm-12 TopicA">Topic B: The Rise of European Fascism</a>
+    </div>
+    
+    <!-- Committee Staff -->
+    <div class="ComStaff">
+        <div class="container">
+            <h1 class="Comh1">LEAGUE OF NATIONS STAFF</h1>
+            <div class="col-sm-4">
+                <img src="" class="fullwidth">
+                <h3 class="staffh3">Adam Dobrer</h3>
+                <p class="staffp">Director</p>
+                <p>Bio</p>
+            </div>
+            <div class="col-sm-4">
+                <img src="" class="fullwidth">
+                <h3 class="staffh3"></h3>
+                <p class="staffp">Chair</p>
+                <p>Bio</p>
+            </div>
+            <div class="col-sm-4">
+                <img src="" class="fullwidth">
+                <h3 class="staffh3">Manraj Natt</h3>
+                <p class="staffp">Assistant Director</p>
+                <p>Bio</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer text-center">
+        <div class="container">
+            <p class="floatl copy">Copyright &copy PacificMUN 2016 </p>
+            <a href="#" class="floatr footeri"><i class="fa fa-facebook white turnblue"></i></a>
+        </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="../../js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 50) {
+                    $('#back-to-top').fadeIn();
+                } else {
+                    $('#back-to-top').fadeOut();
+                }
+            });
+        $('#back-to-top').click(function () {
+            $('#back-to-top').tooltip('hide');
+                $('body,html').animate({
+                    scrollTop: 0
+                }, 800);
+                return false;
+            });
+            $('#back-to-top').tooltip('show');
+        });
+    </script>
+</body>
+</html>

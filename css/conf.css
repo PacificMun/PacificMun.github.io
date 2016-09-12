@@ -1,0 +1,47 @@
+/* Hero */
+.aboutConf{
+    padding-top:60px;
+}
+.Confh1{
+    padding:50px 0px;
+    text-align: center;
+}
+.aboutConfStats{
+    padding-bottom:75px;
+}
+.abouth3{
+    padding:25px;
+    padding-top:50px;
+}
+.Socialindentp{
+    text-indent: 50px;
+}
+.Socialp{
+    text-indent: 50px;
+    padding:75px 0px;
+}
+.Socialp1{
+    text-indent: 50px;
+    padding-top:75px;
+}
+.Socialindentp1{
+    text-indent: 50px;
+    padding-bottom: 50px;
+}
+.SectA{
+    text-align: center;
+    background-color:#2980b9;
+    color:white;
+    margin:5px 0px;
+    border-radius: 5px;
+    padding:5px 0px;
+}
+.SectA:hover{
+    color:white;
+}
+.Confh4{
+    color:#2980b9;
+}
+.ScheDiv{
+    line-height: 1;
+}

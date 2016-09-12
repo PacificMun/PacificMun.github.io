@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>US SENATE</title>
+    
+    <link href="../../css/bootstrap.min.css" rel="stylesheet">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="../../css/font-awesome.min.css" rel="stylesheet">
+    <link href="../../main.css" rel="stylesheet">
+    <link href="../../css/nav.css" rel="stylesheet">
+    <link href="../../css/committeeCSS/temp.css" rel="stylesheet">
+</head>
+<body>
+    <a id="back-to-top" href="#" class="btn btn-primary btn-lg back-to-top" role="button" title="Click to return on the top page" data-toggle="tooltip" data-placement="left"><i class="fa fa-anchor"></i></a>
+    
+    <nav class="navbar navbar-default-blue navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle white" data-toggle="collapse" data-target="#myNavbar">
+                    <i class="fa fa-gavel white navbari"></i>
+                </button>
+                <a class="navbar-brand" href="../../index.html"><i class="fa fa-gavel white"></i>PacificMUN</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="../conf.html">CONFERENCE</a></li>
+                    <li><a href="../com.html">COMMITTEES</a></li>
+                    <li><a href="../reg.html">REGISTRATION</a></li>
+                    <li><a href="../spons.html" class="navsponsorA">SPONSORS</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+  <!-- Committee Overview -->
+    <div class="ComOverview container">
+        <h1 class="Comh1">U.S. SENATE</h1>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p>Questions, inquiries, and position papers about this committee can be emailed to<a href="#">@pacificmun.org</a></p>
+    </div>
+    
+    <!-- Committee Backgrounders-->
+    <div class="ComBackgrounder container">
+        <h1 class="Comh1">Topic Backgrounders</h1>
+        <a href="#" class="col-sm-12 TopicA">Topic A: Gun Control</a>
+        <a href="#" class="col-sm-12 TopicA">Topic B: Women's Reproductive Rights</a>
+    </div>
+    
+    <!-- Committee Staff -->
+    <div class="ComStaff">
+        <div class="container">
+            <h1 class="Comh1">U.S. SENATE STAFF</h1>
+            <div class="col-sm-4">
+                <img src="" class="fullwidth">
+                <h3 class="staffh3">Alexander McGuigan</h3>
+                <p class="staffp">Director</p>
+                <p>Bio</p>
+            </div>
+            <div class="col-sm-4">
+                <img src="" class="fullwidth">
+                <h3 class="staffh3">Frank Yan</h3>
+                <p class="staffp">Chair</p>
+                <p>Frank Yan is a grade 12 student at Sir Winston Churchill Secondary. He
+started Model UN in grade nine on the occasion of walking into the wrong
+club room, however he soon realized that it was no mistake.Since then, he
+felt in love with the intensity of committee sessions and the intertwining
+relationship of international relations and policies. Outside of Model UN,
+he enjoys participating in debate
+tournaments, volunteering for political parties, baking, and biking on
+outdoor trails. Frank hopes to bring delegates a comprehensive and
+realistic experience at Pacific MUN 2017.</p>
+            </div>
+            <div class="col-sm-4">
+                <img src="" class="fullwidth">
+                <h3 class="staffh3">Sara Sheikh</h3>
+                <p class="staffp">Assistant Director</p>
+                <p>Sara is currently a senior attending Handsworth Secondary School. Her last name directly translating to “Caliphate of Islam”, Sara spends much time getting random checks at airports! When not making cringe-worthy jokes, Sara can be found binge-watching Dr. Phil and TLC while simultaneously playing Tetris, truly a challenging feat. Sara first entered the fascinating world of MUN at ConnectMUN 2014, where she delegated in the International Press Corps. After 8 conferences of staffing and delegating in the IPC, Sara can’t express how thrilled she is to be staffing UNODC at VMUN this year, and is looking forward to meeting many esteemed delegates.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer text-center">
+        <div class="container">
+            <p class="floatl copy">Copyright &copy PacificMUN 2016 </p>
+            <a href="#" class="floatr footeri"><i class="fa fa-facebook white turnblue"></i></a>
+        </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="../../js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 50) {
+                    $('#back-to-top').fadeIn();
+                } else {
+                    $('#back-to-top').fadeOut();
+                }
+            });
+        $('#back-to-top').click(function () {
+            $('#back-to-top').tooltip('hide');
+                $('body,html').animate({
+                    scrollTop: 0
+                }, 800);
+                return false;
+            });
+            $('#back-to-top').tooltip('show');
+        });
+    </script>
+</body>
+</html>

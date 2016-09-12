@@ -1,0 +1,77 @@
+*{
+    margin:0;
+    padding:0;
+}
+body {
+    font:20px Montserrat, sans-serif;
+    line-height:1.8;
+    overflow-x:hidden;
+}
+p {
+    font-size:16px;
+}
+.margin {
+    margin-bottom:45px;
+}
+.footer{
+    padding-top:13px;
+    padding-bottom:0px;
+    background-color:#2f2f2f;
+    color:#fff;  
+}
+.footeri{
+    font-size:14px;
+}
+.white{
+    color:white;
+}
+.floatr{
+    float:right;
+}
+.floatl{
+    float:left;
+}
+.turnblue{
+    transition:color 1s;
+}
+.turnblue:hover{
+    color:#2980b9;
+}
+@font-face{
+    font-family:Nexa;
+    src:url("fonts/Nexa.otf");
+}
+@font-face{
+    font-family:Open;
+    src:url("fonts/OpenSans-Regular.ttf")
+}
+@font-face{
+    font-family:Alierons;
+    src:url("fonts/Ailerons-Typeface.otf")
+}
+.copy{
+    font-size:14px;
+}
+.h100per{
+    height:100%;
+}
+.mediaF-facebook{   
+}
+.mediaF-Link{
+    color:white;
+}
+.mediaF-Link:hover{
+    color:white;
+}
+.fullwidth{
+    width:100%;
+}
+::-webkit-scrollbar{
+    width:10px;
+}
+::-webkit-scrollbar-thumb{
+    background-color:#2980b9;
+}  
+::-webkit-scrollbar-track {
+    background-color:darkgrey;
+}

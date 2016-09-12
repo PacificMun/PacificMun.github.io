@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>UNSC</title>
+    
+    <link href="../../css/bootstrap.min.css" rel="stylesheet">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="../../css/font-awesome.min.css" rel="stylesheet">
+    <link href="../../main.css" rel="stylesheet">
+    <link href="../../css/nav.css" rel="stylesheet">
+    <link href="../../css/committeeCSS/temp.css" rel="stylesheet">
+</head>
+<body>
+    <a id="back-to-top" href="#" class="btn btn-primary btn-lg back-to-top" role="button" title="Click to return on the top page" data-toggle="tooltip" data-placement="left"><i class="fa fa-anchor"></i></a>
+    
+    <nav class="navbar navbar-default-blue navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle white" data-toggle="collapse" data-target="#myNavbar">
+                    <i class="fa fa-gavel white navbari"></i>
+                </button>
+                <a class="navbar-brand" href="../../index.html"><i class="fa fa-gavel white"></i>PacificMUN</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="../conf.html">CONFERENCE</a></li>
+                    <li><a href="../com.html">COMMITTEES</a></li>
+                    <li><a href="../reg.html">REGISTRATION</a></li>
+                    <li><a href="../spons.html" class="navsponsorA">SPONSORS</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+   <!-- Committee Overview -->
+    <div class="ComOverview container">
+        <h1 class="Comh1">United Nations Security Council</h1>
+        <p>The United Nations Security Council (UNSC) is the most prominent of six principal organs that are tasked with maintaining international peace and security.  As defined by the UN charter, the role of the UN in ensuring the collective security of nations, mandates the UNSC to recommend peaceful procedures to settle disputes between various parties, but also, allows the council to reserve the power to call for military intervention through the passing of resolutions.  As a result to the catastrophic loss of life from World War I, the Paris Conference established the League of Nations to maintain and ensure peace between nations.  This group would later serve as the foundation for the creation of the UNSC in 1945, as an executive branch within the U.N.</p>
+        <p>With the ratification of the UNSC within the UN charter, the council is mandated with investigating disputes and recommending methods to outline terms of settlement to ensure international peace.  As such, this council has the ability to call upon nations to completely interrupt economic relations and communication channels between one another.  Having the ability to deploy U.N peacekeeping forces, this committee also has the ability to enforce various decisions militarily.  The UNSC is also the only council with the ability to create binding resolutions within the U.N.</p>
+        <p>The council is comprised of fifteen member states with  five permanent members and ten elected members.  The five permanent members are: the United States, the Russian Federation, China, France and the United Kingdom.  These states reserve the right to veto resolutions.  The council’s ten elected members serve two-year terms and do not hold the right to veto.  These non-permanent members are elected by a two-thirds vote within the general assembly and are rendered eligible for candidacy if they contribute to the “maintenance of international security”.
+  Various subsidiary organs also aid the UNSC in carrying out its mission such as, various ad hoc committees on counter-terrorism, biological warfare, chemical weapons etc.  Within the UN secretariat, there are also various departments that oversee on-the-ground operations that act as secondary organisations to the UNSC.   </p>
+        <p>Being the executive committee within the United Nations, the UNSC has the responsibility to preliminarily recommend peaceful solution to solve crisis, however, they set forth the precedent for which the UN will intend to maintain security of nations.</p>
+        <p>Questions, inquiries, and position papers about this committee can be emailed to<a href="#">@pacificmun.org</a></p>
+    </div>
+    
+    <!-- Committee Backgrounders-->
+    <div class="ComBackgrounder container">
+        <h1 class="Comh1">Topic Backgrounders</h1>
+        <a href="#" class="col-sm-12 TopicA">Topic A: War on Drugs</a>
+    </div>
+    
+    <!-- Committee Staff -->
+    <div class="ComStaff">
+        <div class="container">
+            <h1 class="Comh1">UNSC STAFF</h1>
+            <div class="col-sm-offset-2 col-sm-4">
+                <img src="" class="fullwidth">
+                <h3 class="staffh3">Julian Lam</h3>
+                <p class="staffp">Director</p>
+                <p>Winnie is a senior student at Elgin Park Secondary and is very excited to serve as one of the many chairs for JCC. Having been involved with MUN for almost 3 years now, she truly believes that the skills, knowledge, and networks acquired through these invigorating academic simulations help empower youth to further understand the world's many intricacies and innovate beyond a classroom textbook. Outside of MUN, Winnie enjoys expressing herself artistically through motion and pipetting odd substances into eppendorfs. With the opportunities for challenge and growth offered at a raised platform, she hopes that all delegates can passionately interact with others and thoroughly enjoy their times at PacificMUN 2016!</p>
+            </div>
+            <div class="col-sm-4">
+                <img src="" class="fullwidth">
+                <h3 class="staffh3">Kevin Nan</h3>
+                <p class="staffp">Chair</p>
+                <p>Bio</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer text-center">
+        <div class="container">
+            <p class="floatl copy">Copyright &copy PacificMUN 2016 </p>
+            <a href="#" class="floatr footeri"><i class="fa fa-facebook white turnblue"></i></a>
+        </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="../../js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 50) {
+                    $('#back-to-top').fadeIn();
+                } else {
+                    $('#back-to-top').fadeOut();
+                }
+            });
+        $('#back-to-top').click(function () {
+            $('#back-to-top').tooltip('hide');
+                $('body,html').animate({
+                    scrollTop: 0
+                }, 800);
+                return false;
+            });
+            $('#back-to-top').tooltip('show');
+        });
+    </script>
+</body>
+</html>

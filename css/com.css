@@ -1,0 +1,68 @@
+/* Com */
+
+
+/* Committee Introduction */
+.comintro{
+    padding-top:60px;
+}
+.comintroh1{
+    text-transform: uppercase;
+    text-align: center;
+    padding-top:70px;
+    padding-bottom: 45px;
+}
+
+
+
+/* Committee Selection */
+.comselect{
+    padding:50px 0px;
+}
+.select-h1{
+    text-transform: uppercase;
+    text-align: center;
+    padding-top:25px;
+    padding-bottom:25px !important;
+}
+.comselectbloc1{
+    text-transform: uppercase;
+    text-align: center;
+}
+.comselectC1{
+}
+.comselectC1:hover{
+}
+.comselectbloc2{
+    text-transform: uppercase;
+    text-align: center;
+}
+.comselectC2{
+    
+}
+.comselectbloc3{
+    text-transform: uppercase;
+    text-align: center;
+}
+.comselectC3{
+    
+}
+/* ROP PPP*/
+.ROPPPP{
+    
+}
+.comROP{
+    background-color:#2980b9;
+    border-radius: 5px;
+    color:white;
+}
+.comPPP{
+    background-color:#2980b9;
+    border-radius: 5px;
+    color:white;
+}
+/* Committee Contact */
+.comcontact{
+    text-transform: uppercase;
+    text-align: center;
+    padding:50px 0px;
+}

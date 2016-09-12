@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>DISEC</title>
+    
+    <link href="../../css/bootstrap.min.css" rel="stylesheet">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="../../css/font-awesome.min.css" rel="stylesheet">
+    <link href="../../main.css" rel="stylesheet">
+    <link href="../../css/nav.css" rel="stylesheet">
+    <link href="../../css/committeeCSS/temp.css" rel="stylesheet">
+</head>
+<body>
+    <a id="back-to-top" href="#" class="btn btn-primary btn-lg back-to-top" role="button" title="Click to return on the top page" data-toggle="tooltip" data-placement="left"><i class="fa fa-anchor"></i></a>
+    
+    <nav class="navbar navbar-default-blue navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle white" data-toggle="collapse" data-target="#myNavbar">
+                    <i class="fa fa-gavel white navbari"></i>
+                </button>
+                <a class="navbar-brand" href="../../index.html"><i class="fa fa-gavel white"></i>PacificMUN</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="../conf.html">CONFERENCE</a></li>
+                    <li><a href="../com.html">COMMITTEES</a></li>
+                    <li><a href="../reg.html">REGISTRATION</a></li>
+                    <li><a href="../spons.html" class="navsponsorA">SPONSORS</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- Committee Overview -->
+    <div class="ComOverview container">
+        <h1 class="Comh1">Disarmament and International Security Committee</h1>
+        <p>DISEC was created to deal with disarmament, global challenges and threats to peace. It is meant to keep the international community safe and peaceful by using solutions in the international security regime. 
+        </p>
+        <p>The General Assembly was formed in 1945 when the United Nation (UN) Charter was first ratified. The General Assembly is one the main 6 organs of the UN and is the main deliberative, policymaking, and representative organ of the UN. Each country has one vote in any General Assembly, and will consist of every member of the UN. Important matters such as those on peace and security, admission of new members, or budgetary matters, require two thirds majority. Other simpler matters only require simple majority. </p>
+        <p>DISEC is considered to play a major role in the General Assembly's. The phrase “international peace and security” is mentioned six times in Chapter IV of the UN Charter. DISEC however does not hold the power to impose sanctions or allow for armed intervention. It does however, hold the authority to initiate studies and pass resolutions for the purpose of international political cooperation as well as “the development and codification of international law.” In a quick synopsis, DISEC cannot require countries to take a specific action. It can however make recommendations to the Security Council. </p>
+        <p>Questions, inquiries, and position papers about this committee can be emailed to <a href="#">disec@pacificmun.org</a></p>
+    </div>
+    
+    <!-- Committee Backgrounders-->
+    <div class="ComBackgrounder container">
+        <h1 class="Comh1">Topic Backgrounders</h1>
+        <a href="#" class=""><div class="col-sm-12 TopicA">Topic #A : Cyberwarfare</div></a>
+        <a href="#" class=""><div class="col-sm-12 TopicA">Topic #B : Drones</div></a>
+    </div>
+    
+    <!-- Committee Staff -->
+    <div class="ComStaff">
+        <div class="container">
+            <h1 class="Comh1">DISEC STAFF</h1>
+            <div class="col-sm-4">
+                <img src="" class="fullwidth">
+                <h3 class="staffh3">Dunstan Wang</h3>
+                <p class="staffp">Director</p>
+                <p>Dunstan has learned his ABC's and 123's. Ever since, he has always been
+passionate about world issues and debate, both which Model UN include. He
+joined the MUN world in Grade 8 and has been actively involved in it as
+much as possible. Outside of MUN, he can be found playing around on one of
+the many instruments that happen to be near him. Dunstan currently spends a
+lot of his time at a music store partly because he loves it there and
+partly because he works there. He currently attends Grade 11 at Fraser
+Heights Secondary and is absolutely delighted to serve as your director for
+DISEC.</p>
+            </div>
+            <div class="col-sm-4">
+                <img src="" class="fullwidth">
+                <h3 class="staffh3">Edward Yu</h3>
+                <p class="staffp">Chair</p>
+                <p>Bio</p>
+            </div>
+            <div class="col-sm-4">
+                <img src="" class="fullwidth">
+                <h3 class="staffh3">Rachel Chok</h3>
+                <p class="staffp">Assistant Director</p>
+                <p>Rachel Chok is a junior at J.N. Burnett Secondary School and is notorious for her atrocious use of puns, but nonetheless promises to bring utter professionalism to the dias as an Assistant Director. Her favourite memories lie in DISEC -of course-, a committee filled with fast-paced debate and diplomacy. She hopes to inspire her delegates to develop a passion for global issues. Aside from Model UN, Rachel has a penchant for nature, and can be found mountain biking or rafting down level 2 rapids. Rachel is honoured to staff at PacificMUN and wishes all delegates the best of luck.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer text-center">
+        <div class="container">
+            <p class="floatl copy">Copyright &copy PacificMUN 2016 </p>
+            <a href="#" class="floatr footeri"><i class="fa fa-facebook white turnblue"></i></a>
+        </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="../../js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 50) {
+                    $('#back-to-top').fadeIn();
+                } else {
+                    $('#back-to-top').fadeOut();
+                }
+            });
+        $('#back-to-top').click(function () {
+            $('#back-to-top').tooltip('hide');
+                $('body,html').animate({
+                    scrollTop: 0
+                }, 800);
+                return false;
+            });
+            $('#back-to-top').tooltip('show');
+        });
+    </script>
+</body>
+</html>

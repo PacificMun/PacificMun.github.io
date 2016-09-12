@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>UNSpaceCommand</title>
+    
+    <link href="../../css/bootstrap.min.css" rel="stylesheet">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="../../css/font-awesome.min.css" rel="stylesheet">
+    <link href="../../main.css" rel="stylesheet">
+    <link href="../../css/nav.css" rel="stylesheet">
+    <link href="../../css/committeeCSS/temp.css" rel="stylesheet">
+</head>
+<body>
+    <a id="back-to-top" href="#" class="btn btn-primary btn-lg back-to-top" role="button" title="Click to return on the top page" data-toggle="tooltip" data-placement="left"><i class="fa fa-anchor"></i></a>
+    
+    <nav class="navbar navbar-default-blue navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle white" data-toggle="collapse" data-target="#myNavbar">
+                    <i class="fa fa-gavel white navbari"></i>
+                </button>
+                <a class="navbar-brand" href="../../index.html"><i class="fa fa-gavel white"></i>PacificMUN</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="../conf.html">CONFERENCE</a></li>
+                    <li><a href="../com.html">COMMITTEES</a></li>
+                    <li><a href="../reg.html">REGISTRATION</a></li>
+                    <li><a href="../spons.html" class="navsponsorA">SPONSORS</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- Committee Overview -->
+    <div class="ComOverview container">
+        <h1 class="Comh1">UN Space Command</h1>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p>Questions, inquiries, and position papers about this committee can be emailed to<a href="#">@pacificmun.org</a></p>
+    </div>
+    
+    <!-- Committee Backgrounders-->
+    <div class="ComBackgrounder container">
+        <h1 class="Comh1">Topic Backgrounders</h1>
+        <a href="#" class="col-sm-12 TopicA">Topic A: Space Resources Development</a>
+    </div>
+    
+    <!-- Committee Staff -->
+    <div class="ComStaff">
+        <div class="container">
+            <h1 class="Comh1">UN SPACE COMMAND STAFF</h1>
+            <div class="col-sm-4">
+                <img src="" class="fullwidth">
+                <h3 class="staffh3">Germaine Chu</h3>
+                <p class="staffp">Director</p>
+                <p>Germaine is currently a senior at Little Flower Academy and will serve as
+director of UN Space Command. She has been a Model UN leader at LFA for
+three years and have participated in a whirlwind of conferences all over
+the world. Her favourite conference to date has been HarvardMUNCHINA 2016,
+where she was given the opportunity to visit Beijing, Xian and Shanghai
+with her school. When she is not found power walking around a conference,
+you will probably discover her either bent over a circuit board, reading
+one of her favourite books or sprinting after a disc. Germaine is
+thoroughly excited for PACIFICMUN2017 and cannot wait to meet you all in
+committee!</p>
+            </div>
+            <div class="col-sm-4">
+                <img src="" class="fullwidth">
+                <h3 class="staffh3">Talissa Eng</h3>
+                <p class="staffp">Chair</p>
+                <p>Bio</p>
+            </div>
+            <div class="col-sm-4">
+                <img src="" class="fullwidth">
+                <h3 class="staffh3">Jeffrey Shen</h3>
+                <p class="staffp">Assistant Director</p>
+                <p>Jeffrey Shen is a sophomore at Pinetree Secondary, and is pleased to be staffing, as the Assistant Director, of UN Space Command. He became involved with MUN in his freshman year, and has been enthusiastically delegating in conferences ever since. This is the first time that he will be staffing, and he is determined to make Pacific MUN 2017 a terrific event. Jeffrey enjoys playing tennis, drawing, and volunteering. In his free time, he enjoys travelling to new places, and experiencing new cultures. Jeffrey looks forward to seeing all of the new and returning delegates, at Pacific MUN 2017!</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer text-center">
+        <div class="container">
+            <p class="floatl copy">Copyright &copy PacificMUN 2016 </p>
+            <a href="#" class="floatr footeri"><i class="fa fa-facebook white turnblue"></i></a>
+        </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="../../js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 50) {
+                    $('#back-to-top').fadeIn();
+                } else {
+                    $('#back-to-top').fadeOut();
+                }
+            });
+        $('#back-to-top').click(function () {
+            $('#back-to-top').tooltip('hide');
+                $('body,html').animate({
+                    scrollTop: 0
+                }, 800);
+                return false;
+            });
+            $('#back-to-top').tooltip('show');
+        });
+    </script>
+</body>
+</html>

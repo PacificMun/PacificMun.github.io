@@ -1,0 +1,44 @@
+/* Registration */
+.Registration{
+    padding-top:60px;
+}
+.countdown{
+    text-align: center; 
+}
+.herocountdownborder{
+    border-left:2px solid #2980b9;
+}
+
+
+
+.RegNormal{
+    text-align: center;
+    padding:100px 0px;
+    background-color:white;
+    border:5px solid #2980b9;
+}
+.RegSchool{
+    text-align:center;
+    padding:100px 0px;
+    background-color:#2980b9;
+}
+
+
+
+
+.RegPolicyBlue{
+    color:#2980b9;
+}
+
+
+
+.RegBigh1{
+    text-align: center;
+    text-transform: uppercase;
+    padding:50px 0px;
+}
+.RegPolicyP1{
+    text-transform: uppercase;
+    font-style: italic;
+    text-indent: 50px;
+}
