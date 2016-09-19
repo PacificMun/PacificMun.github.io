@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>OIC</title>
+    
+    <link href="../../css/bootstrap.min.css" rel="stylesheet">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="../../css/font-awesome.min.css" rel="stylesheet">
+    <link href="../../main.css" rel="stylesheet">
+    <link href="../../css/nav.css" rel="stylesheet">
+    <link href="../../css/committeeCSS/temp.css" rel="stylesheet">
+</head>
+<body>
+    <a id="back-to-top" href="#" class="btn btn-primary btn-lg back-to-top" role="button" title="Click to return on the top page" data-toggle="tooltip" data-placement="left"><i class="fa fa-anchor"></i></a>
+    
+    <nav class="navbar navbar-default-blue navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle white" data-toggle="collapse" data-target="#myNavbar">
+                    <i class="fa fa-gavel white navbari"></i>
+                </button>
+                <a class="navbar-brand" href="../../index.html"><i class="fa fa-gavel white"></i>PacificMUN</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="../conf.html">CONFERENCE</a></li>
+                    <li><a href="../com.html">COMMITTEES</a></li>
+                    <li><a href="../reg.html">REGISTRATION</a></li>
+                    <li><a href="../spons.html" class="navsponsorA">SPONSORS</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+   <!-- Committee Overview -->
+    <div class="ComOverview container">
+        <h1 class="Comh1">OIC</h1>
+        <p>
+        The OIC consists of 57 member states with each respective state acting to represent their country in the OIC. In 2008 the present charter was adopted by the eleventh Islamic session,  which laid down the principles and objectives of the organization. As a result, this charter unifies the OIC under one umbrella of “Strengthening Solidarity”. Each member state must abide by the OIC. The OIC consists of many different organs, each with the purpose of strengthening relations between its member states.
+        </p>
+        <p>
+         The “Standing Committee,” which is one of the organs, consists of the following; The Al Quds Committee, The Standing Committee of Information and Cultural Affairs (COMIAC), The Standing Committee for Economic and Commercial Cooperation (COMCEC), and lastly The Standing Committee for Scientific and Technological cooperation (COMSTECH). Delegates should be aware of “The Standing Committee,” which is significant for the OIC as it strengthens the links between its member states, and in-order to advance issues of critical importance to the organization. The OIC’s 57 members are spread throughout four continents. 
+        </p>
+        <p>
+        In-order to protect the interests of Muslims and to re-solve any rivalry between member states, the OIC’s relation with the United Nations and other bodies/organizations is consultative and cooperative. 
+        </p>
+        <p>
+            Questions, inquiries, and position papers about this committee can be emailed to 
+        <a href="#">OIC@pacificmun.org</a>
+        </p>
+    </div>
+    
+    <!-- Committee Backgrounders-->
+    <div class="ComBackgrounder container">
+        <h1 class="Comh1">Topic Backgrounders</h1>
+        <a href="#" class="col-sm-12 TopicA">Topic A: Israeli-Palestinian Conflict</a>
+        <a href="#" class="col-sm-12 TopicA">Topic B: Overcoming the Sunni Shia Split</a>
+    </div>
+    
+    <!-- Committee Staff -->
+    <div class="ComStaff">
+        <div class="container">
+            <h1 class="Comh1">OIC STAFF</h1>
+            <div class="col-sm-offset-2 col-sm-4">
+                <img src="" class="fullwidth">
+                <h3 class="staffh3">Ali Mohaidly</h3>
+                <p class="staffp">Director</p>
+                <p>Bio</p>
+            </div>
+            <div class="col-sm-4">
+                <img src="" class="fullwidth">
+                <h3 class="staffh3">Carol Wang</h3>
+                <p class="staffp">Chair</p>
+                <p>Bio</p>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Footer -->
+    <footer class="footer text-center">
+        <div class="container">
+            <p class="floatl copy">Copyright &copy PacificMUN 2016 </p>
+            <a href="#" class="floatr footeri"><i class="fa fa-facebook white turnblue"></i></a>
+        </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="../../js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 50) {
+                    $('#back-to-top').fadeIn();
+                } else {
+                    $('#back-to-top').fadeOut();
+                }
+            });
+        $('#back-to-top').click(function () {
+            $('#back-to-top').tooltip('hide');
+                $('body,html').animate({
+                    scrollTop: 0
+                }, 800);
+                return false;
+            });
+            $('#back-to-top').tooltip('show');
+        });
+    </script>
+</body>
+</html>

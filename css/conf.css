@@ -1,4 +1,7 @@
 /* Hero */
+h1{
+    font-size: 2.5em;
+}
 .aboutConf{
     padding-top:60px;
 }
@@ -7,7 +10,18 @@
     text-align: center;
 }
 .aboutConfStats{
+}
+.aboutConfStats1{
     padding-bottom:75px;
+}
+.aboutConfStatcol{
+    padding-right:0;
+    padding-left:0;
+}
+.aboutConfStatcolt{
+    padding-right:0;
+    padding-left:0;
+    padding-top: 30px;
 }
 .abouth3{
     padding:25px;

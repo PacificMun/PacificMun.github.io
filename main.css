@@ -3,7 +3,7 @@
     padding:0;
 }
 body {
-    font:20px Montserrat, sans-serif;
+    font:20px Stellar-Light, sans-serif;
     line-height:1.8;
     overflow-x:hidden;
 }
@@ -43,11 +43,19 @@ p {
 }
 @font-face{
     font-family:Open;
-    src:url("fonts/OpenSans-Regular.ttf")
+    src:url("fonts/OpenSans-Regular.ttf");
 }
 @font-face{
     font-family:Alierons;
-    src:url("fonts/Ailerons-Typeface.otf")
+    src:url("fonts/Ailerons-Typeface.otf");
+}
+@font-face{
+    font-family:Stellar-Regular;
+    src:url("fonts/Stellar-Regular.otf")
+}
+@font-face{
+    font-family:Stellar-Light;
+    src:url("fonts/Stellar-Light.otf")
 }
 .copy{
     font-size:14px;
@@ -74,4 +82,7 @@ p {
 }  
 ::-webkit-scrollbar-track {
     background-color:darkgrey;
+}
+.indent{
+    text-indent: 50px; 
 }

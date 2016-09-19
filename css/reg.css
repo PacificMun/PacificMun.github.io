@@ -12,7 +12,11 @@
 
 .RegBox{
     margin:100px 0px;
-    text-align: center;
+    text-align: right;
+}
+.RegBox1{
+    margin:100px 0px;
+    text-align: left;
 }
 .RegNormal{
     text-align: center;
@@ -53,5 +57,5 @@
 .RegPolicyP1{
     text-transform: uppercase;
     font-style: italic;
-    text-indent: 50px;
+    font-size:1.3em;
 }

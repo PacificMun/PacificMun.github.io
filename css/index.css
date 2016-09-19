@@ -16,7 +16,7 @@
     margin-bottom: 15px;
 }
 .heroh3{
-    font-size:5vw;
+    font-size:7vw;
     margin:0;
 }
 .heroa{
@@ -29,7 +29,7 @@
 }
 .heroa:hover{
     color:#2980b9 !important;
-
+    background-color:white;
     text-decoration:none;
 }
 
@@ -39,20 +39,19 @@
     padding-bottom: 50px;
     padding-top: 50px;
     line-height:1;
-        background-color:white;
+    background-color:white;
     z-index:5;
 }
 .letterh3{
-    font-family: "Open";
+
     font-size: 2em;
     padding-bottom:30px;
     border-bottom: 2px solid #2980b9;
 }
 .letterp{
     color:black;
-    font-family:"Open";
     line-height:1.5;
-    font-size:14px;
+    font-size:18px;
     text-align: left;
     background-color:white;
 }
@@ -60,7 +59,6 @@
     margin-top:30px;
 }
 .letterpmid{
-    font-family: "Open";
     padding-top:30px;
 }
 .letterp1{
@@ -81,7 +79,7 @@
     height: 100vh;
     width: 100vw;
     top: 0;
-    background-color:rgba(41,128,185,0.3);
+    background-color:rgba(41,128,185,0.5);
 }
 video{
     position:absolute;
