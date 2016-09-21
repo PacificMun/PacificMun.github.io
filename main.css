@@ -2,6 +2,8 @@
     margin:0;
     padding:0;
 }
+@-ms-viewport { width: device-width; }
+
 body {
     font:20px Stellar-Light, sans-serif;
     line-height:1.8;
@@ -73,6 +75,9 @@ p {
 }
 .fullwidth{
     width:100%;
+}
+span{
+    color:#2980b9;
 }
 ::-webkit-scrollbar{
     width:10px;
