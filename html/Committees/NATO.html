@@ -13,6 +13,7 @@
     <link href="../../main.css" rel="stylesheet">
     <link href="../../css/nav.css" rel="stylesheet">
     <link href="../../css/committeeCSS/temp.css" rel="stylesheet">
+    <link href="../../css/popbox.css" rel="stylesheet">
 </head>
 <body>
     <a id="back-to-top" href="#" class="btn btn-primary btn-lg back-to-top" role="button" title="Click to return on the top page" data-toggle="tooltip" data-placement="left"><i class="fa fa-anchor"></i></a>
@@ -23,14 +24,13 @@
                 <button type="button" class="navbar-toggle white" data-toggle="collapse" data-target="#myNavbar">
                     <i class="fa fa-gavel white navbari"></i>
                 </button>
-                <a class="navbar-brand" href="../../index.html"><i class="fa fa-gavel white"></i>PacificMUN</a>
+                <a class="navbar-brand" href="../../index.html"><img src="../../img/LogoWhite.png" class="navLogo">&nbsp;<p class="logoP">PACIFICMUN</p></a>
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="../conf.html">CONFERENCE</a></li>
                     <li><a href="../com.html">COMMITTEES</a></li>
                     <li><a href="../reg.html">REGISTRATION</a></li>
-                    <li><a href="../spons.html" class="navsponsorA">SPONSORS</a></li>
                 </ul>
             </div>
         </div>
@@ -38,10 +38,10 @@
     
     <!-- Committee Overview -->
     <div class="ComOverview container">
-        <h1 class="Comh1">NATO</h1>
-        <p>The North Atlantic Treaty Organization (NATO) was originally established on April 4th, 1949 as an intergovernmental military alliance between 12 founding member states to prevent the proliferation of communist ideologies of the former Soviet Union (USSR). </p>
-        <p>Since the collapse of the USSR in 1991 at the end of the Cold War, although NATO lost its historical purpose for having existed, NATO has transitioned its goal to safeguarding the freedom and security of its current 28 member states in Europe and North America. Outlined by NATO’s 2010 Strategic Concept, the three fundamental objectives of the North Atlantic Alliance, created for the purposes of safeguarding Alliance members in the interests of international law, include, but are not limited to: (1) the guarantee of collective defence as a primary mechanism of defence amongst member nations, (2) the continuation of overseas crisis management of issues that potentially undermine the interests of the alliance, and (3) the provision of cooperative security amongst neighbours and international partners on grounds of common concern. As enshrined in Article 4 of the Washington Treaty, NATO uniquely remains as the sole organization in which parties collectively come together to discuss all issues of contention that impact the territorial integrity, political, independence and/or security of its members.</p>
-        <p>Questions, inquiries, and position papers about this committee can be emailed to<a href="#">@pacificmun.org</a></p>
+        <h1 class="Comh1Title">NATO</h1>
+        <p class="indent">The North Atlantic Treaty Organization (NATO) was originally established on April 4th, 1949 as an intergovernmental military alliance between 12 founding member states to prevent the proliferation of communist ideologies of the former Soviet Union (USSR). </p>
+        <p class="indent">Since the collapse of the USSR in 1991 at the end of the Cold War, although NATO lost its historical purpose for having existed, NATO has transitioned its goal to safeguarding the freedom and security of its current 28 member states in Europe and North America. Outlined by NATO’s 2010 Strategic Concept, the three fundamental objectives of the North Atlantic Alliance, created for the purposes of safeguarding Alliance members in the interests of international law, include, but are not limited to: (1) the guarantee of collective defence as a primary mechanism of defence amongst member nations, (2) the continuation of overseas crisis management of issues that potentially undermine the interests of the alliance, and (3) the provision of cooperative security amongst neighbours and international partners on grounds of common concern. As enshrined in Article 4 of the Washington Treaty, NATO uniquely remains as the sole organization in which parties collectively come together to discuss all issues of contention that impact the territorial integrity, political, independence and/or security of its members.</p>
+        <p class="indent">Questions, inquiries, and position papers about this committee can be emailed to<a href="#"> nato@pacificmun.org</a></p>
     </div>
     
     <!-- Committee Backgrounders-->
@@ -53,40 +53,65 @@
     
     <!-- Committee Staff -->
     <div class="ComStaff">
-        <div class="container">
+        <div class="container text-center">
             <h1 class="Comh1">NATO STAFF</h1>
             <div class="col-sm-offset-2 col-sm-4">
-                <img src="" class="fullwidth">
+                <img src="../../img/Staff/Woojin%20Lim.png" class="fullwidth">
                 <h3 class="staffh3">Woojin Lim</h3>
                 <p class="staffp">Director</p>
-                <p>Woojin Lim is currently a grade eleven student at Fraser Heights Secondary. As
-an active public speaker deeply interested in global issues, philosophy,
-and criminal law, Woojin rekindled his interest in Model United Nations in
-his sophomore year. Woojin believes that MUN is a unique platform for
-delegates to expand their knowledge of international affairs. Outside of
-MUN, Woojin volunteers for various nonprofit organizations, serves as a
-freelance ensemble violinist, and continues to write eloquent poetry synced
-with hip hop music. Woojin strongly encourages all delegates to attend the
-North Atlantic Treaty Organization at PacificMUN 2017 for an unforgettable
-experience!</p>
+                <a href="#popup1"><i class="fa fa-plus bio-link"></i></a>
             </div>
             <div class="col-sm-4">
-                <img src="" class="fullwidth">
+                <img src="../../img/Staff/Nathan%20Shao.JPG" class="fullwidth">
                 <h3 class="staffh3">Nathan Shao</h3>
                 <p class="staffp">Chair</p>
-                <p>Nathan Shao is a Grade 11 IB student at Port Moody Secondary School. He is
-honoured to serve as the Chair of the US Senate. Ever since attending his
-first MUN club meeting as his school, Nathan has been an eager participant
-ever since. He believes that MUN is a great opportunity for delegates to
-network and meet other enthusiastic students. Outside of MUN, Nathan can be
-found playing in chess tournaments, performing in piano recitals,
-snowboarding on the local mountains or playing basketball with friends.
-Nathan hopes that PacificMUN 2017 will be an innovative and memorable
-experience for all delegates.</p>
+                <a href="#popup2"><i class="fa fa-plus bio-link"></i></a>
             </div>
         </div>
     </div>
 
+    <!-- PopUps -->
+    <div id="popup1" class="overlay">
+        <div class="popup">
+            <h2 class="popuph2">Wooj the Rapper</h2>
+            <a class="close" href="#">&times;</a>
+            <div class="content">
+                <p class="indent">
+                    Woojin Lim is currently a grade eleven student at Fraser Heights Secondary. As
+                    an active public speaker deeply interested in global issues, philosophy,
+                    and criminal law, Woojin rekindled his interest in Model United Nations in
+                    his sophomore year. Woojin believes that MUN is a unique platform for
+                    delegates to expand their knowledge of international affairs. Outside of
+                    MUN, Woojin volunteers for various nonprofit organizations, serves as a
+                    freelance ensemble violinist, and continues to write eloquent poetry synced
+                    with hip hop music. Woojin strongly encourages all delegates to attend the
+                    North Atlantic Treaty Organization at PacificMUN 2017 for an unforgettable
+                    experience!
+                </p>
+            </div>
+        </div>
+    </div>
+    
+    <div id="popup2" class="overlay">
+        <div class="popup">
+            <h2 class="popuph2">Nathan Shao</h2>
+            <a class="close" href="#">&times;</a>
+            <div class="content">
+                <p class="indent">
+                    Nathan Shao is a Grade 11 IB student at Port Moody Secondary School. He is
+                    honoured to serve as the Chair of the US Senate. Ever since attending his
+                    first MUN club meeting as his school, Nathan has been an eager participant
+                    ever since. He believes that MUN is a great opportunity for delegates to
+                    network and meet other enthusiastic students. Outside of MUN, Nathan can be
+                    found playing in chess tournaments, performing in piano recitals,
+                    snowboarding on the local mountains or playing basketball with friends.
+                    Nathan hopes that PacificMUN 2017 will be an innovative and memorable
+                    experience for all delegates.
+                </p>
+            </div>
+        </div>
+    </div>
+    
     <!-- Footer -->
     <footer class="footer text-center">
         <div class="container">

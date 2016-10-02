@@ -13,6 +13,7 @@
     <link href="../../main.css" rel="stylesheet">
     <link href="../../css/nav.css" rel="stylesheet">
     <link href="../../css/committeeCSS/temp.css" rel="stylesheet">
+    <link href="../../css/popbox.css" rel="stylesheet">
 </head>
 <body>
     <a id="back-to-top" href="#" class="btn btn-primary btn-lg back-to-top" role="button" title="Click to return on the top page" data-toggle="tooltip" data-placement="left"><i class="fa fa-anchor"></i></a>
@@ -23,14 +24,13 @@
                 <button type="button" class="navbar-toggle white" data-toggle="collapse" data-target="#myNavbar">
                     <i class="fa fa-gavel white navbari"></i>
                 </button>
-                <a class="navbar-brand" href="../../index.html"><i class="fa fa-gavel white"></i>PacificMUN</a>
+                <a class="navbar-brand" href="../../index.html"><img src="../../img/LogoWhite.png" class="navLogo">&nbsp;<p class="logoP">PACIFICMUN</p></a>
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="../conf.html">CONFERENCE</a></li>
                     <li><a href="../com.html">COMMITTEES</a></li>
                     <li><a href="../reg.html">REGISTRATION</a></li>
-                    <li><a href="../spons.html" class="navsponsorA">SPONSORS</a></li>
                 </ul>
             </div>
         </div>
@@ -38,7 +38,7 @@
     
     <!-- Committee Overview -->
     <div class="ComOverview container">
-        <h1 class="Comh1">UN Space Command</h1>
+        <h1 class="Comh1Title">UN Space Command</h1>
         <p></p>
         <p></p>
         <p></p>
@@ -53,13 +53,37 @@
     
     <!-- Committee Staff -->
     <div class="ComStaff">
-        <div class="container">
+        <div class="container text-center">
             <h1 class="Comh1">UN SPACE COMMAND STAFF</h1>
             <div class="col-sm-4">
-                <img src="" class="fullwidth">
+                <img src="../../img/Staff/Germaine%20Chu.jpg" class="fullwidth">
                 <h3 class="staffh3">Germaine Chu</h3>
                 <p class="staffp">Director</p>
-                <p>Germaine is currently a senior at Little Flower Academy and will serve as
+                <a href="#popup1"><i class="fa fa-plus bio-link"></i></a>
+            </div>
+            <div class="col-sm-4">
+                <img src="../../img/Staff/TalissaEng.jpg" class="fullwidth">
+                <h3 class="staffh3">Talissa Eng</h3>
+                <p class="staffp">Chair</p>
+                <a href="#popup2"><i class="fa fa-plus bio-link"></i></a>
+            </div>
+            <div class="col-sm-4">
+                <img src="" class="fullwidth">
+                <h3 class="staffh3">Jeffrey Shen</h3>
+                <p class="staffp">Assistant Director</p>
+                <a href="#popup3"><i class="fa fa-plus bio-link"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- PopUps -->
+    <div id="popup1" class="overlay">
+        <div class="popup">
+            <h2 class="popuph2">Germaine Chu</h2>
+            <a class="close" href="#">&times;</a>
+            <div class="content">
+                <p class="indent">
+                    Germaine is currently a senior at Little Flower Academy and will serve as
 director of UN Space Command. She has been a Model UN leader at LFA for
 three years and have participated in a whirlwind of conferences all over
 the world. Her favourite conference to date has been HarvardMUNCHINA 2016,
@@ -68,23 +92,36 @@ with her school. When she is not found power walking around a conference,
 you will probably discover her either bent over a circuit board, reading
 one of her favourite books or sprinting after a disc. Germaine is
 thoroughly excited for PACIFICMUN2017 and cannot wait to meet you all in
-committee!</p>
-            </div>
-            <div class="col-sm-4">
-                <img src="" class="fullwidth">
-                <h3 class="staffh3">Talissa Eng</h3>
-                <p class="staffp">Chair</p>
-                <p>Bio</p>
-            </div>
-            <div class="col-sm-4">
-                <img src="" class="fullwidth">
-                <h3 class="staffh3">Jeffrey Shen</h3>
-                <p class="staffp">Assistant Director</p>
-                <p>Jeffrey Shen is a sophomore at Pinetree Secondary, and is pleased to be staffing, as the Assistant Director, of UN Space Command. He became involved with MUN in his freshman year, and has been enthusiastically delegating in conferences ever since. This is the first time that he will be staffing, and he is determined to make Pacific MUN 2017 a terrific event. Jeffrey enjoys playing tennis, drawing, and volunteering. In his free time, he enjoys travelling to new places, and experiencing new cultures. Jeffrey looks forward to seeing all of the new and returning delegates, at Pacific MUN 2017!</p>
+committee!
+                </p>
             </div>
         </div>
     </div>
-
+    
+    <div id="popup2" class="overlay">
+        <div class="popup">
+            <h2 class="popuph2">Talissa Eng</h2>
+            <a class="close" href="#">&times;</a>
+            <div class="content">
+                <p class="indent">
+                   Talissa is in her first year at the University of British Columbia studying commerce. When she isn't studying or attending class, you can find her eating and hanging out with friends. She has been a dedicated member of the Model UN community for the past 3 years and has had the pleasure of attending and staffing numerous conferences. Talissa is excited to see delegates work together to create meaningful solutions. She looks forward to meeting all of the delegates and hopes to make her last mun the best one. If you see her around the conference, feel free to say hi!
+                </p>
+            </div>
+        </div>
+    </div>
+    
+    <div id="popup3" class="overlay">
+        <div class="popup">
+            <h2 class="popuph2">Jeffrey Shen</h2>
+            <a class="close" href="#">&times;</a>
+            <div class="content">
+                <p class="indent">
+                    Jeffrey Shen is a sophomore at Pinetree Secondary, and is pleased to be staffing, as the Assistant Director, of UN Space Command. He became involved with MUN in his freshman year, and has been enthusiastically delegating in conferences ever since. This is the first time that he will be staffing, and he is determined to make Pacific MUN 2017 a terrific event. Jeffrey enjoys playing tennis, drawing, and volunteering. In his free time, he enjoys travelling to new places, and experiencing new cultures. Jeffrey looks forward to seeing all of the new and returning delegates, at Pacific MUN 2017!
+                </p>
+            </div>
+        </div>
+    </div>
+    
     <!-- Footer -->
     <footer class="footer text-center">
         <div class="container">

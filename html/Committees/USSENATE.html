@@ -13,6 +13,7 @@
     <link href="../../main.css" rel="stylesheet">
     <link href="../../css/nav.css" rel="stylesheet">
     <link href="../../css/committeeCSS/temp.css" rel="stylesheet">
+    <link href="../../css/popbox.css" rel="stylesheet">
 </head>
 <body>
     <a id="back-to-top" href="#" class="btn btn-primary btn-lg back-to-top" role="button" title="Click to return on the top page" data-toggle="tooltip" data-placement="left"><i class="fa fa-anchor"></i></a>
@@ -23,14 +24,13 @@
                 <button type="button" class="navbar-toggle white" data-toggle="collapse" data-target="#myNavbar">
                     <i class="fa fa-gavel white navbari"></i>
                 </button>
-                <a class="navbar-brand" href="../../index.html"><i class="fa fa-gavel white"></i>PacificMUN</a>
+                <a class="navbar-brand" href="../../index.html"><img src="../../img/LogoWhite.png" class="navLogo">&nbsp;<p class="logoP">PACIFICMUN</p></a>
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="../conf.html">CONFERENCE</a></li>
                     <li><a href="../com.html">COMMITTEES</a></li>
                     <li><a href="../reg.html">REGISTRATION</a></li>
-                    <li><a href="../spons.html" class="navsponsorA">SPONSORS</a></li>
                 </ul>
             </div>
         </div>
@@ -38,11 +38,14 @@
     
   <!-- Committee Overview -->
     <div class="ComOverview container">
-        <h1 class="Comh1">U.S. SENATE</h1>
-        <p></p>
-        <p></p>
-        <p></p>
-        <p>Questions, inquiries, and position papers about this committee can be emailed to<a href="#">@pacificmun.org</a></p>
+        <h1 class="Comh1Title">U.S. SENATE</h1>
+        <p class="indent">
+            Established by the constitution with the purpose of acting as one part of the Legislative Branch of the federal government, the United States Senate along with the House of Representatives are fundamental in the functionality of the United States of America. The Senate is made up of one hundred Senators (two from each state) who serve six year terms. These terms, however, begin and end at different times, so that one third of senators are up for election every two years.
+        </p>
+        <p class="indent">
+            Senators (along with members of the House of Representatives) are required to propose, debate, write and then vote on legislation which can range from social security to foreign relations with another nation. In order for a bill to be passed, it is usually required to pass a vote in both the House, Senate and then be signed by the President of the United States before it is enacted into law. The Senate also has a few unique jobs which include agreeing to treaties with foreign nations and confirming Presidential appointments such as judges, foreign ambassadors, and cabinet positions.
+        </p>
+        <p class="indent">Questions, inquiries, and position papers about this committee can be emailed to<a href="#"> ussenate@pacificmun.org</a></p>
     </div>
     
     <!-- Committee Backgrounders-->
@@ -54,19 +57,50 @@
     
     <!-- Committee Staff -->
     <div class="ComStaff">
-        <div class="container">
+        <div class="container text-center">
             <h1 class="Comh1">U.S. SENATE STAFF</h1>
             <div class="col-sm-4">
                 <img src="" class="fullwidth">
                 <h3 class="staffh3">Alexander McGuigan</h3>
                 <p class="staffp">Director</p>
-                <p>Bio</p>
+                <a href="#popup1"><i class="fa fa-plus bio-link"></i></a>
             </div>
             <div class="col-sm-4">
-                <img src="" class="fullwidth">
+                <img src="../../img/Staff/FrankYan.JPG" class="fullwidth">
                 <h3 class="staffh3">Frank Yan</h3>
                 <p class="staffp">Chair</p>
-                <p>Frank Yan is a grade 12 student at Sir Winston Churchill Secondary. He
+                <a href="#popup2"><i class="fa fa-plus bio-link"></i></a>
+                <p></p>
+            </div>
+            <div class="col-sm-4">
+                <img src="../../img/Staff/SaraSheikh.JPG" class="fullwidth">
+                <h3 class="staffh3">Sara Sheikh</h3>
+                <p class="staffp">Assistant Director</p>
+                <a href="#popup3"><i class="fa fa-plus bio-link"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- PopUps -->
+    <div id="popup1" class="overlay">
+        <div class="popup">
+            <h2 class="popuph2">Alexander McGuigan</h2>
+            <a class="close" href="#">&times;</a>
+            <div class="content">
+                <p class="indent">
+                     
+                </p>
+            </div>
+        </div>
+    </div>
+    
+    <div id="popup2" class="overlay">
+        <div class="popup">
+            <h2 class="popuph2">Frank Yan</h2>
+            <a class="close" href="#">&times;</a>
+            <div class="content">
+                <p class="indent">
+                    Frank Yan is a grade 12 student at Sir Winston Churchill Secondary. He
 started Model UN in grade nine on the occasion of walking into the wrong
 club room, however he soon realized that it was no mistake.Since then, he
 felt in love with the intensity of committee sessions and the intertwining
@@ -74,17 +108,24 @@ relationship of international relations and policies. Outside of Model UN,
 he enjoys participating in debate
 tournaments, volunteering for political parties, baking, and biking on
 outdoor trails. Frank hopes to bring delegates a comprehensive and
-realistic experience at Pacific MUN 2017.</p>
-            </div>
-            <div class="col-sm-4">
-                <img src="" class="fullwidth">
-                <h3 class="staffh3">Sara Sheikh</h3>
-                <p class="staffp">Assistant Director</p>
-                <p>Sara is currently a senior attending Handsworth Secondary School. Her last name directly translating to “Caliphate of Islam”, Sara spends much time getting random checks at airports! When not making cringe-worthy jokes, Sara can be found binge-watching Dr. Phil and TLC while simultaneously playing Tetris, truly a challenging feat. Sara first entered the fascinating world of MUN at ConnectMUN 2014, where she delegated in the International Press Corps. After 8 conferences of staffing and delegating in the IPC, Sara can’t express how thrilled she is to be staffing UNODC at VMUN this year, and is looking forward to meeting many esteemed delegates.</p>
+realistic experience at Pacific MUN 2017.
+                </p>
             </div>
         </div>
     </div>
-
+    
+    <div id="popup3" class="overlay">
+        <div class="popup">
+            <h2 class="popuph2">Sara Sheikh</h2>
+            <a class="close" href="#">&times;</a>
+            <div class="content">
+                <p class="indent">
+            Sara is currently a senior attending Handsworth Secondary School. Her last name directly translating to “Caliphate of Islam”, Sara spends much time getting random checks at airports! When not making cringe-worthy jokes, Sara can be found binge-watching Dr. Phil and TLC while simultaneously playing Tetris, truly a challenging feat. Sara first entered the fascinating world of MUN at ConnectMUN 2014, where she delegated in the International Press Corps. After 8 conferences of staffing and delegating in the IPC, Sara can’t express how thrilled she is to be staffing UNODC at VMUN this year, and is looking forward to meeting many esteemed delegates.
+                </p>
+            </div>
+        </div>
+    </div>
+    
     <!-- Footer -->
     <footer class="footer text-center">
         <div class="container">

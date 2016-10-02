@@ -47,12 +47,25 @@ nav.navbar.shrink {
 .navbar-default .navbar-toggle {
     border-color: transparent; /* Removes border color */
 }
-.navbari{
-    font-size:2em;
+.navLogo{
+    width:50px;
+    float:left;
+    padding-top:0px !important;
 }
+.navbar-brand{
+    padding:0px;
+}
+.logoP{
+    padding:15px;
+    float:right;
+}
+
+
+
 .navbar-default .navbar-toggle .icon-bar {
     background-color: white; /* Changes regular toggle color */
 }
+
 .back-to-top {
     cursor: pointer;
     position: fixed;

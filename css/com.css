@@ -1,7 +1,7 @@
 /* Com */
 
 
-/* Committee Introduction */
+    /* Committee Introduction */
 .comintro{
     padding-top:60px;
 }
@@ -12,9 +12,7 @@
     padding-bottom: 45px;
 }
 
-
-
-/* Committee Selection */
+    /* Committee Selection */
 .comselect{
     padding:50px 0px;
 }
@@ -28,29 +26,76 @@
     text-transform: uppercase;
     text-align: center;
 }
-.comselectC1{
-}
-.comselectC1:hover{
-}
 .comselectbloc2{
     text-transform: uppercase;
     text-align: center;
-}
-.comselectC2{
-    
 }
 .comselectbloc3{
     text-transform: uppercase;
     text-align: center;
 }
-.comselectC3{
-    
-}
 .comselectbloc4{
     text-transform: uppercase;
     text-align: center;
 }
-/* ROP PPP*/
+.comselectC1{
+    border:1px solid #deb887;
+    border-radius: 5px;
+    margin:10px 0px;
+    background-color:#deb887;
+    color:white;
+    padding-bottom: 5px;
+    transition: color 1s, background-color 1s;
+}
+.comselectC1:hover{
+    color:#deb887;
+    background-color:white;
+    text-decoration: none;
+}
+.comselectC2{
+    border:1px solid #acb4b9;
+    border-radius: 5px;
+    margin:10px 0px;
+    background-color:#acb4b9;
+    color:white;
+    padding-bottom: 5px;
+    transition: color 1s, background-color 1s;
+}
+.comselectC2:hover{
+    color:#acb4b9;
+    background-color:white;
+    text-decoration: none;
+}
+.comselectC3{
+    border:1px solid #ffdd1a;
+    border-radius: 5px;
+    margin:10px 0px;
+    background-color:#ffdd1a;
+    color:white;
+    padding-bottom: 5px;
+    transition: color 1s, background-color 1s;
+}
+.comselectC3:hover{
+    color:#ffdd1a;
+    background-color:white;
+    text-decoration: none;
+}
+.comselectC4{
+    border:1px solid #80e8ff;
+    border-radius: 5px;
+    margin:10px 0px;
+    background-color:#80e8ff;
+    color:white;
+    padding-bottom: 5px;
+    transition: color 1s, background-color 1s;
+}
+.comselectC4:hover{
+    color:#80e8ff;
+    background-color:white;
+    text-decoration: none;
+}
+
+    /* ROP PPP*/
 .ROPPPP{
     
 }
@@ -64,7 +109,8 @@
     border-radius: 5px;
     color:white;
 }
-/* Committee Contact */
+
+    /* Committee Contact */
 .comcontact{
     text-transform: uppercase;
     text-align: center;

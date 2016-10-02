@@ -6,42 +6,49 @@
     text-align: center; 
 }
 .herocountdownborder{
-    border-left:2px solid #2980b9;
-}
-
-
-.RegBox{
-    margin:100px 0px;
-    text-align: right;
-}
-.RegBox1{
-    margin:100px 0px;
-    text-align: left;
+    border-left:2px solid white;
 }
 .RegNormal{
     text-align: center;
     padding:25px 15px;
     color:white;
     width:100%;
+    border:1px solid #2980b9;
     background-color:#2980b9;
     text-transform: uppercase;
+    transition: background-color 1s, color 1s;
 }
 .RegNormal:hover{
-    color:white;
+    color:#2980b9;
+    background-color:white;
+    text-decoration: underline;
 }
 .RegSchool{
     text-align: center;
     padding:25px 15px;
     color:white;
     width:100%;
+    border:1px solid #2980b9;
     background-color:#2980b9;
     text-transform: uppercase;
+    transition: background-color 1s, color 1s;
 }
 .RegSchool:hover{
-    color:white;
+    color:#2980b9;
+    background-color:white;
+    text-decoration: underline;
+}
+.hero-Register{
+    background-image: url(../img/Pinnacle/Picture1.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    height:300px;
+    padding:100px 0px;
 }
 
-
+.registrationButton{
+    margin-top:100px;
+}
 
 .RegPolicyBlue{
     color:#2980b9;

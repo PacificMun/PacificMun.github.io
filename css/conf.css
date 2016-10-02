@@ -2,31 +2,35 @@
 h1{
     font-size: 2.5em;
 }
+
 .aboutConf{
-    padding-top:60px;
+    padding-top: 60px;
+}
+.ConfLinks{
+    
+}
+.ConfLink1{
+    background-image: url(../img/PacificMun2015/UnionofSoviet.jpg);
+    width:100%;
+}
+
+.ConfLink2{
+    
+}
+.ConfLink3{
+    
+}
+.ConfLink4{
+    
 }
 .Confh1{
-    padding:50px 0px;
     text-align: center;
+    padding:50px 0px;
 }
-.aboutConfStats{
-}
-.aboutConfStats1{
-    padding-bottom:75px;
-}
-.aboutConfStatcol{
-    padding-right:0;
-    padding-left:0;
-}
-.aboutConfStatcolt{
-    padding-right:0;
-    padding-left:0;
-    padding-top: 30px;
-}
-.abouth3{
-    padding:25px;
-    padding-top:50px;
-}
+
+
+
+
 .Socialindentp{
     text-indent: 50px;
 }
@@ -42,6 +46,9 @@ h1{
     text-indent: 50px;
     padding-bottom: 50px;
 }
+
+
+    /* Sect */
 .SectA{
     text-align: center;
     background-color:#2980b9;
@@ -53,6 +60,16 @@ h1{
 .SectA:hover{
     color:white;
 }
+    /*Social*/
+.Confindent{
+    border-left:2px solid #2980b9;
+}
+.socialrow{
+    margin:50px 0px;
+}
+
+
+
 .Confh4{
     color:#2980b9;
 }
@@ -62,8 +79,12 @@ h1{
 .ScheDiv{
     line-height: 1;
 }
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 100%;
+  }
 .parallaxConfVenue{
-    background-image: url(../img/Pinnacle/businessmetting_slider1.jpg);
+    background-image: url(../img/Pinnacle/Pinnacle-Hotel-Harbourfront-5.JPG);
     background-attachment: fixed;
     background-position: center center;
     background-repeat: no-repeat;
@@ -71,7 +92,15 @@ h1{
     height:50vh;
 }
 .parallaxConfVenue1{
-    background-image: url(../img/Pinnacle/location_slider2.jpg);
+    background-image: url(../img/Pinnacle/Bluecity.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height:50vh;
+}
+.parallaxConfVenue2{
+    background-image: url(../img/Pinnacle/businessmetting_slider1.jpg);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
