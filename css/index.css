@@ -61,19 +61,19 @@
 
 @media screen and (max-width: 700px){
     .heroh3{
-        font-size:70px;
+        font-size:350px;
     }
     .herop{
-        font-size:30px;
+        font-size:15px;
     }
     .herop1{
-        font-size:30px;
+        font-size:15px;
     }
     .heroa{
-        font-size:15px;
+        font-size:10px;
     }
     .heroa:hover{
-        font-size:15px;
+        font-size:10px;
     }
 }
 video{
