@@ -59,9 +59,23 @@ nav.navbar.shrink {
     padding:15px;
     float:right;
 }
+@media screen and (max-width: 700px){
+    .navbar-nav  li a{
+        color:white !important;
+        background-color:#2980b9 !important;
+        transition:color 1s, border-bottom 1s, border-top 1s, background-color 1s;
+    } 
+    .navbar-nav  li a:hover {
+        color: white;
+        border-bottom: 1px solid white;
+        padding-bottom: 14px;
+        background-color:#2980b9 !important;
+    }
+}
 
-
-
+.navbari{
+    font-size:25px;
+}
 .navbar-default .navbar-toggle .icon-bar {
     background-color: white; /* Changes regular toggle color */
 }
