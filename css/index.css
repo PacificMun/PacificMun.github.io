@@ -14,6 +14,7 @@
 }
 .herop{
     font-size:2vmax;
+    
     margin:0;
 }
 .herop1{
@@ -61,7 +62,7 @@
 
 @media screen and (max-width: 700px){
     .heroh3{
-        font-size:350px;
+        font-size:35px;
     }
     .herop{
         font-size:15px;
