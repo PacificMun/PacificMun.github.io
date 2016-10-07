@@ -17,6 +17,7 @@
   transition: opacity 500ms;
   visibility: hidden;
   opacity: 0;
+    
 }
 .overlay:target {
   visibility: visible;
@@ -24,12 +25,13 @@
 }
 
 .popup {
-  margin: 150px auto;
-  padding: 20px;
-  background: #fff;
-  width: 50%;
-  position: relative;
-  transition: all 5s ease-in-out;
+    margin: 150px auto;
+    padding: 20px;
+    background: #fff;
+    width: 50%;
+    position: relative;
+    transition: all 5s ease-in-out;
+    
 }
 
 .popup h2 {
@@ -51,8 +53,8 @@
   color: #2980b9;
 }
 .popup .content {
-  max-height: 30%;
-  overflow: auto;
+    max-height: 80vh;
+  overflow-y: scroll;
 }
 
 .popuph2{

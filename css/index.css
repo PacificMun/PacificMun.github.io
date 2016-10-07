@@ -5,13 +5,13 @@
 .hero{
     height:100vh;
     text-align: center;
-    padding-top:20vh;
+    padding-top:25vh;
 }
 .logohero{
-    font-size:5em;
+    font-size:7em;
 }
 .herop{
-    font-size:2vmax;
+    font-size:3vmax;
     margin:0;
 }
 .herop1{
@@ -22,7 +22,7 @@
 }
 .heroh3{
     margin-top:-50px;
-    font-size:7vw;
+    font-size:10vw;
     margin:0;
 }
 .heroa{
@@ -33,35 +33,35 @@
     border: 1px solid white;
     color:white !important;
     transition: background-color 1s, color 1s;
-    font-size:18px;
+    font-size:1.3vmax;
 }
 .heroa:hover{
     color:#2980b9 !important;
     background-color:white;
     text-decoration:none;
+    font-size:1.3vmax;
 }
 
 
 .letter{
-    color:black;
+    color:white;
     padding-bottom: 50px;
     padding-top: 50px;
     line-height:1;
     background-color:white;
     z-index:5;
+    background-color:#2980b9;
 }
 .letterh3{
-
     font-size: 2em;
     padding-bottom:30px;
     border-bottom: 2px solid #2980b9;
 }
 .letterp{
-    color:black;
+    color:white;
     line-height:1.5;
     font-size:18px;
     text-align: left;
-    background-color:white;
 }
 .letterpad{
     margin-top:30px;
@@ -81,7 +81,7 @@
 }
 
  
-/*
+
 .overlay{
     position: absolute;
     height: 100vh;
@@ -89,7 +89,7 @@
     top: 0;
     background-color:rgba(41,128,185,0.5);
 }
-*/
+
 .Herologo{
     width:200px;
     z-index: 1000;

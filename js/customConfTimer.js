@@ -1,6 +1,6 @@
 function countdownConf() {
 
-    var deadline = new Date("March 3 2017 7:59:59");
+    var deadline = new Date("November 25 2016 23:59:59");
     var now = new Date();
     var timeDiff = deadline.getTime() - now.getTime();
     if (timeDiff <= 0) {
@@ -11,7 +11,7 @@ function countdownConf() {
     var minutes = Math.floor(seconds / 60);
     var hours = Math.floor(minutes / 60);
     var days = Math.floor(hours / 24);
-    
+
     hours %= 24;
     minutes %= 60;
     seconds %= 60;
