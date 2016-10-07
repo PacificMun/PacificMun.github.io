@@ -4,6 +4,9 @@
     /* Committee Introduction */
 .comintro{
     padding-top:60px;
+    color:white;
+    background-color:#2980b9;
+    padding-bottom:60px;
 }
 .comintroh1{
     text-transform: uppercase;
@@ -39,58 +42,58 @@
     text-align: center;
 }
 .comselectC1{
-    border:1px solid #deb887;
+    border:1px solid #82bce3;
     border-radius: 5px;
     margin:10px 0px;
-    background-color:#deb887;
+    background-color:#82bce3;
     color:white;
     padding-bottom: 5px;
     transition: color 1s, background-color 1s;
 }
 .comselectC1:hover{
-    color:#deb887;
+    color:#82bce3;
     background-color:white;
     text-decoration: none;
 }
 .comselectC2{
-    border:1px solid #acb4b9;
+    border:1px solid #58a6da;
     border-radius: 5px;
     margin:10px 0px;
-    background-color:#acb4b9;
+    background-color: #58a6da;
     color:white;
     padding-bottom: 5px;
     transition: color 1s, background-color 1s;
 }
 .comselectC2:hover{
-    color:#acb4b9;
+    color: #58a6da;
     background-color:white;
     text-decoration: none;
 }
 .comselectC3{
-    border:1px solid #ffdd1a;
+    border:1px solid #439bd6;
     border-radius: 5px;
     margin:10px 0px;
-    background-color:#ffdd1a;
+    background-color:#439bd6;
     color:white;
     padding-bottom: 5px;
     transition: color 1s, background-color 1s;
 }
 .comselectC3:hover{
-    color:#ffdd1a;
+    color:#439bd6;
     background-color:white;
     text-decoration: none;
 }
 .comselectC4{
-    border:1px solid #80e8ff;
+    border:1px solid #2980b9;
     border-radius: 5px;
     margin:10px 0px;
-    background-color:#80e8ff;
+    background-color:#2980b9;
     color:white;
     padding-bottom: 5px;
     transition: color 1s, background-color 1s;
 }
 .comselectC4:hover{
-    color:#80e8ff;
+    color:#2980b9;
     background-color:white;
     text-decoration: none;
 }

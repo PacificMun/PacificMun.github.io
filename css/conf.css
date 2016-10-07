@@ -6,6 +6,11 @@ h1{
 /* About Conference*/
 .aboutConf{
     padding-top:70px;
+    background-color:#2980b9;
+    color:white;
+    height:auto;
+    padding-bottom: 60px;
+    
 }
 .ConfLinks{
     

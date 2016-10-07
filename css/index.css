@@ -5,13 +5,15 @@
 .hero{
     height:100vh;
     text-align: center;
-    padding-top:25vh;
+    padding-top:15vh;
+    background-image: url(../img/waterfront.jpg);
+    background-size: cover;
 }
 .logohero{
-    font-size:7em;
+    font-size:5em;
 }
 .herop{
-    font-size:3vmax;
+    font-size:2vmax;
     margin:0;
 }
 .herop1{
@@ -22,7 +24,7 @@
 }
 .heroh3{
     margin-top:-50px;
-    font-size:10vw;
+    font-size:7vw;
     margin:0;
 }
 .heroa{
@@ -33,53 +35,20 @@
     border: 1px solid white;
     color:white !important;
     transition: background-color 1s, color 1s;
-    font-size:1.3vmax;
+    font-size:1vmax;
 }
 .heroa:hover{
     color:#2980b9 !important;
     background-color:white;
     text-decoration:none;
-    font-size:1.3vmax;
+    font-size:1vmax;
 }
 
 
-.letter{
-    color:white;
-    padding-bottom: 50px;
-    padding-top: 50px;
-    line-height:1;
-    background-color:white;
-    z-index:5;
-    background-color:#2980b9;
+.Herologo{
+    width:200px;
+    z-index: 1000;
 }
-.letterh3{
-    font-size: 2em;
-    padding-bottom:30px;
-    border-bottom: 2px solid #2980b9;
-}
-.letterp{
-    color:white;
-    line-height:1.5;
-    font-size:18px;
-    text-align: left;
-}
-.letterpad{
-    margin-top:30px;
-}
-.letterpmid{
-    padding-top:30px;
-}
-.letterp1{
-    font-size: 20px !important;
-}
-.letterp2{
-    font-size: 20px !important;
-    color:#2980b9;
-}
-.signpic{
-    width:300px;
-}
-
  
 
 .overlay{
@@ -90,9 +59,22 @@
     background-color:rgba(41,128,185,0.5);
 }
 
-.Herologo{
-    width:200px;
-    z-index: 1000;
+@media screen and (max-width: 700px){
+    .heroh3{
+        font-size:70px;
+    }
+    .herop{
+        font-size:30px;
+    }
+    .herop1{
+        font-size:30px;
+    }
+    .heroa{
+        font-size:15px;
+    }
+    .heroa:hover{
+        font-size:15px;
+    }
 }
 video{
     position:absolute;

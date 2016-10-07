@@ -17,3 +17,47 @@
     text-transform: uppercase;
     font-style: italic;
 }
+
+
+/* Letter */
+.letter{
+    padding-top:120px !important;
+    color:white;
+    padding-bottom: 150px;
+    line-height:1;
+    background-color:white;
+    z-index:5;
+    background-color:#2980b9;
+}
+.letterh3{
+    font-size: 2em;
+    padding-bottom:30px;
+    border-bottom: 2px solid #2980b9;
+}
+.letterp{
+    color:white;
+    line-height:1.5;
+    font-size:18px;
+    text-align: left;
+}
+.letterpad{
+    margin-top:30px;
+}
+.letterpmid{
+    padding-top:30px;
+}
+.letterp1{
+    font-size: 20px !important;
+}
+.letterp2{
+    font-size: 20px !important;
+    color:#2980b9;
+}
+.signpic{
+    width:300px;
+}
+
+.Herologo{
+    width:200px;
+    z-index: 1000;
+}
