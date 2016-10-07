@@ -125,3 +125,8 @@ span{
     background-color:#2980b9;
     border-color:#2980b9;
 }
+/* Fix for viewport being too wide below smallest breakpoint */
+@media (max-width: 767px) {
+    body > .container { overflow: hidden; } /* fix */
+    body > .container > * { overflow: visible; } /* reset back to normal */
+}
