@@ -10,7 +10,11 @@ h1{
     color:white;
     height:auto;
     padding-bottom: 60px;
-    
+    background-image: url(../img/Bluecity.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: fixed;
 }
 .ConfLinks{
     
@@ -40,13 +44,26 @@ h1{
 .Socialindentp{
     text-indent: 50px;
 }
-.Socialp{
+.Socialpa{
     text-indent: 50px;
     padding:75px 0px;
+    border-top:2px solid #2980b9;
+    border-bottom:2px solid #2980b9;
 }
+.Socialpb{
+    text-indent: 50px;
+    padding:75px 0px;
+    border-top:2px solid #2980b9;
+    border-bottom:2px solid #2980b9;
+}
+
+
+
 .Socialp1{
     text-indent: 50px;
     padding-top:75px;
+    padding-bottom:75px;
+    border-right:2px solid #2980b9;
 }
 .Socialindentp1{
     text-indent: 50px;
@@ -90,23 +107,23 @@ h1{
       width: 100%;
   }
 .parallaxConfVenue{
-    background-image: url(../img/Pinnacle/Pinnacle-Hotel-Harbourfront-5.JPG);
+    background-image: url(../img/Pinnacle/location_slider4.jpg);
     background-attachment: fixed;
     background-position: center center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     height:50vh;
 }
 .parallaxConfVenue1{
-    background-image: url(../img/Pinnacle/Bluecity.jpg);
+    background-image: url(../img/Pinnacle/location_slider2.jpg);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     height:50vh;
 }
 .parallaxConfVenue2{
-    background-image: url(../img/Pinnacle/businessmetting_slider1.jpg);
+    background-image: url(../img/Pinnacle/p2b_top.jpg);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;

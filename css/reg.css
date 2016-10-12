@@ -4,6 +4,10 @@
     padding-bottom:60px;
     background-color:#2980b9;
     color:white;
+    background-image: url(../img/Pinnacle/Picture1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 .countdown{
     text-align: center; 

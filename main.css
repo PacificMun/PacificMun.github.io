@@ -5,12 +5,12 @@
 @-ms-viewport { width: device-width; }
 
 body {
-    font:20px Stellar-Light, sans-serif;
+    font:20px Myriad, sans-serif;
     line-height:1.8;
     overflow-x:hidden;
 }
 p {
-    font-size:16px;
+    font-size:20px;
 }
 .margin {
     margin-bottom:45px;
@@ -22,7 +22,7 @@ p {
     color:#fff;  
 }
 .footeri{
-    font-size:14px;
+    font-size:16px;
 }
 .white{
     color:white;
@@ -32,12 +32,17 @@ p {
 }
 .floatl{
     float:left;
+    font-size:22px;
 }
 .turnblue{
     transition:color 1s;
 }
 .turnblue:hover{
     color:#2980b9;
+}
+@font-face{
+    font-family:Myriad;
+    src:url("fonts/Myriad.ttf");
 }
 @font-face{
     font-family:Nexa;
@@ -60,7 +65,7 @@ p {
     src:url("fonts/Stellar-Light.otf")
 }
 .copy{
-    font-size:14px;
+    font-size:18px;
 }
 .h100per{
     height:100%;
@@ -125,6 +130,19 @@ span{
     background-color:#2980b9;
     border-color:#2980b9;
 }
+.nostylea{
+    color:white;
+    text-decoration: none
+}
+.nostylea:hover{
+    color:#2980b9 !important;
+    text-decoration: none
+}
+
+
+
+
+
 /* Fix for viewport being too wide below smallest breakpoint */
 @media (max-width: 767px) {
     body > .container { overflow: hidden; } /* fix */

@@ -6,8 +6,7 @@
     height:100vh;
     text-align: center;
     padding-top:15vh;
-    background-image: url(../img/waterfront.jpg);
-    background-size: cover;
+    
 }
 .logohero{
     font-size:5em;
@@ -36,13 +35,13 @@
     border: 1px solid white;
     color:white !important;
     transition: background-color 1s, color 1s;
-    font-size:1vmax;
+    font-size:20px;
 }
 .heroa:hover{
     color:#2980b9 !important;
     background-color:white;
     text-decoration:none;
-    font-size:1vmax;
+    font-size:20px;
 }
 
 
@@ -75,6 +74,10 @@
     }
     .heroa:hover{
         font-size:10px;
+    }
+    .hero{
+        background-image: url(../img/waterfront.jpg);
+        background-size: cover;
     }
 }
 video{
