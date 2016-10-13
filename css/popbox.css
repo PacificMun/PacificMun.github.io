@@ -31,9 +31,7 @@
     width: 50%;
     position: relative;
     transition: all 5s ease-in-out;
-    
 }
-
 .popup h2 {
   margin-top: 0;
   color: #333;
@@ -54,18 +52,21 @@
 }
 .popup .content {
     max-height: 80vh;
-  overflow-y: scroll;
+    overflow-y: scroll;
 }
-
 .popuph2{
     color:#2980b9 !important;
     text-align: center;
 }
 @media screen and (max-width: 700px){
-  .box{
+    .box{
     width: 70%;
-  }
-  .popup{
+    }
+    .popup{
     width: 70%;
-  }
+    }
+    .popup .content {
+        max-height: 60vh;
+        overflow-y: scroll;
+    }
 }
