@@ -1,152 +1,454 @@
-*{
-    margin:0;
-    padding:0;
-}
-@-ms-viewport { width: device-width; }
-
+    /* ~~~~~~~~~~~~~~~~ */
+    /* ~~~~~ MAIN ~~~~~ */
+    /* ~~~~~~~~~~~~~~~~ */
 body {
-    font:20px Myriad, sans-serif;
-    line-height:1.8;
+    font: 400 15px Lato, sans-serif;
+    line-height: 1.8;
+    color: #818181;
     overflow-x:hidden;
 }
-p {
-    font-size:20px;
-}
-.margin {
-    margin-bottom:45px;
-}
-.footer{
-    padding-top:13px;
-    padding-bottom:0px;
-    background-color:#2f2f2f;
-    color:#fff;  
-}
-.footeri{
-    font-size:16px;
-}
-.white{
-    color:white;
-}
-.floatr{
-    float:right;
-}
-.floatl{
-    float:left;
-    font-size:22px;
-}
-.turnblue{
-    transition:color 1s;
-}
-.turnblue:hover{
-    color:#2980b9;
-}
-@font-face{
-    font-family:Myriad;
-    src:url("fonts/Myriad.ttf");
-}
-@font-face{
-    font-family:Nexa;
-    src:url("fonts/Nexa.otf");
-}
-@font-face{
-    font-family:Open;
-    src:url("fonts/OpenSans-Regular.ttf");
-}
-@font-face{
-    font-family:Alierons;
-    src:url("fonts/Ailerons-Typeface.otf");
-}
-@font-face{
-    font-family:Stellar-Regular;
-    src:url("fonts/Stellar-Regular.otf")
-}
-@font-face{
-    font-family:Stellar-Light;
-    src:url("fonts/Stellar-Light.otf")
-}
-.copy{
-    font-size:18px;
-}
-.h100per{
-    height:100%;
-}
-.mediaF-facebook{   
-}
-.mediaF-Link{
-    color:white;
-}
-.mediaF-Link:hover{
-    color:white;
+h2 {
+      font-size: 24px;
+      text-transform: uppercase;
+      color: #303030;
+      margin-bottom: 30px;
 }
 .fullwidth{
     width:100%;
 }
-span{
-    color:#2980b9;
+.notext-center{
+    text-align: left;
 }
+.noborderR{
+    border-radius: 0 !important;
+}
+.noborder{
+    border:none !important
+}
+.container-fluid {
+    padding: 60px 50px;
+}
+.bg-grey {
+    background-color: #f6f6f6;
+}
+    /* ~~~~~~~~~~~~~~~~~ */
+    /* ~~~~~ Color ~~~~~ */
+    /* ~~~~~~~~~~~~~~~~~ */
+.colorred{
+   color: #FF5C79;
+}
+.colorblue{
+   color: #5EC9FF;
+}
+.coloryellow{
+   color: #FFD65C;
+}
+.colorpink{
+   color: #FF5CFF;
+}
+
+    /* ~~~~~~~~~~~~~~~~ */
+    /* ~~~~~ HERO ~~~~~ */
+    /* ~~~~~~~~~~~~~~~~ */
+.hero{
+    height:100vh;
+    text-align: center;
+   /* background-image: url(img/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat; */
+}
+.heroimg{
+    max-width: 80%;
+    min-width:500px;
+}
+.parrallaxhero{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+video{
+    position:absolute;
+    top:46vh;
+    left:50%;
+    min-width:100%;
+    min-height:100%;
+    width:auto;
+    height:auto;
+    z-index:-100;
+    transform: translate(-50%, -50%);
+    background-size: cover;
+}
+
+
+
+
+    /* ~~~~~~~~~~~~~~~~~ */
+    /* ~~~~~ ABOUT ~~~~~ */
+    /* ~~~~~~~~~~~~~~~~~ */
+.aboutinner{
+    padding: 25px 100px;
+}
+.abouth2{
+    font-size:2em;
+    color:black;
+}
+.aboutp{
+    
+}
+
+    /* ~~~~~~~~~~~~~~~~ */
+    /* ~~~~~ GOAL ~~~~~ */
+    /* ~~~~~~~~~~~~~~~~ */
+.Goal{
+    padding:0px 10px;
+}
+.GoalFlex{
+     display: flex;
+}
+.GoalFlex1{
+     display: flex;
+}
+.NetworkI{
+    font-size: 5em;
+    color:white;
+    border:5px solid white;
+    border-radius:100px;
+    padding:25px;
+    transition:color 2s, background-color 2s, transform 2s;
+}
+.NetworkI:hover{
+    color:#FFD65C;
+    background-color:white;
+    transform: rotate(360deg);
+}
+.NetworkWrapper{
+    border:3px solid white;
+    margin-top:15px;
+    margin-bottom:15px;
+    padding:50px 55px;
+    background-color: rgba(254,214,93,0.2);
+    transition: background-color 2s;
+}
+.NetworkWrapper:hover{
+    background-color:rgba(254,214,93,0.8);
+}
+.Network{
+    flex: 1;
+    background-image: url(img/YASconf2.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+.DreamI{
+    font-size: 5em;
+    color:white;
+    border:5px solid white;
+    border-radius:100px;
+    padding:20px 25px;
+    transition:color 2s, background-color 2s, transform 2s;
+}
+.DreamI:hover{
+    color:#5EC9FF;
+    background-color:white;
+    transform: rotate(360deg);
+}
+.DreamWrapper{
+    border:3px solid white;
+    margin-top:15px;
+    margin-bottom:15px;
+     padding:50px 55px;
+    background-color: rgba(94,201,255,0.2);
+    transition: background-color 2s;
+}
+.DreamWrapper:hover{
+    background-color:rgba(94,201,255,0.8);
+}
+.Dream{
+    flex: 1;
+    background-image: url(img/YASconf1.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+.PassionI{
+    font-size: 5em;
+    color:white;
+    border:5px solid white;
+    border-radius:100px;
+    padding:25px;
+    transition:color 2s, background-color 2s, transform 2s;
+}
+.PassionI:hover{
+    color:#FF5CFF;
+    background-color:white;
+    transform: rotate(360deg);
+}
+.PassionWrapper{
+    border:3px solid white;
+    margin-top:15px;
+    margin-bottom:15px;
+    padding:50px 55px;
+    background-color: rgba(252,95,249,0.2);
+    transition: background-color 2s;
+}
+.PassionWrapper:hover{
+    background-color:rgba(252,95,249,0.8);
+}
+.Passion{
+    flex: 1;
+    background-image: url(img/ubc2.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+.ExperienceI{
+    font-size: 5em;
+    color:white;
+    border:5px solid white;
+    border-radius:100px;
+    padding:20px 25px;
+    transition:color 2s, background-color 2s, transform 2s;
+}
+.ExperienceI:hover{
+    color:#FF5C79;
+    background-color:white;
+    transform: rotate(360deg);
+}
+.ExperienceWrapper{
+    border:3px solid white;
+    margin-top:15px;
+    margin-bottom:15px;
+     padding:50px 55px;
+    background-color:rgba(250,92,121,0.2);
+    transition: background-color 2s;
+}
+.ExperienceWrapper:hover{
+    background-color:rgba(250,92,121,0.8);
+}
+.Experience{
+    flex: 1;
+    background-image: url(img/ubc1.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+.Goalh1{
+    color:white;
+    text-transform: uppercase;
+}
+.Goalp{
+    color:white;
+}
+    /* ~~~~~~~~~~~~~~~~~~~~ */
+    /* ~~~~~ SPEAKERS ~~~~~ */
+    /* ~~~~~~~~~~~~~~~~~~~~ */ 
+    
+.speakers{
+    padding:15px 0px;
+}
+.speakerrow1{
+    padding:15px 0px;
+}
+.speakerrow2{
+    padding:15px 0px;
+}
+.speakerrow3{
+    padding:15px 0px;
+}
+.speakerh2{
+    font-size:2em;
+    padding:25px 0px;
+}
+.speakerh3{
+    
+}
+.speakerh4{
+    
+}
+.speakerp{
+    
+}
+.speakerimg{
+    max-width:300px;
+}
+
+
+    /* ~~~~~~~~~~~~~~~~ */
+    /* ~~~~~ INFO ~~~~~ */
+    /* ~~~~~~~~~~~~~~~~ */
+.info{
+    background-image: url(img/ubc2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    padding:50px 0px;
+}
+.infoscheduleimg{
+    width:100%;
+    max-width: 400px;
+}
+.FAQpanel-heading{
+    padding:25px 0px;
+    background-color:#FFD65C;
+    border-radius:0px;
+}
+.FAQ1panel-heading{
+    padding:25px 0px;
+    background-color:#FF5C79;
+    border-radius:0px;
+}
+.FAQ2panel-heading{
+    padding:25px 0px;
+    background-color:#FF5CFF;
+    border-radius:0px;
+}
+.FAQ3panel-heading{
+    padding:25px 0px;
+    background-color:#5EC9FF;
+    border-radius:0px;
+}
+.FAQpanel-title{
+    color:white;
+    border-radius:0px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left:15px;
+    font-size: 1.5em;
+}
+.panel-body{
+    background-color:white !important;
+}
+.FAQA{
+    color:white !important;
+}
+.FAQA:hover {
+    color:white !important;
+}
+.FAQA:active{
+    color:white !important;
+}
+.FAQA:visited{
+    color:white !important;
+}
+
+    /* ~~~~~~~~~~~~~~~~~~~ */
+    /* ~~~~~ CONTACT ~~~~~ */
+    /* ~~~~~~~~~~~~~~~~~~~ */
+.contactinfo{
+    padding:50px 0px;
+}
+.contacth1{
+    color:#FFD65C;
+}
+.contactmail{
+    color:#FFD65C;
+    font-size:1.3em;
+}
+.contactmail:hover{
+    color:#FFD65C;
+    font-size:1.3em;
+}
+.contactfa{
+    font-size: 3em;
+    color:#FFD65C;
+}
+
+
+    /* ~~~~~~~~~~~~~~~~~~~~~~~~ */
+    /* ~~~~~ REGISTRATION ~~~~~ */
+    /* ~~~~~~~~~~~~~~~~~~~~~~~~ */
+.registration{
+    background-image: url(img/ubc1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding:100px;
+}
+.regH1{
+    color:white;
+    padding-bottom:50px;
+}
+.rega{
+    color:white;
+    border:3px solid white;
+    padding:15px 25px;
+    transition: background-color 1s, border-color 1s;
+}
+.rega:hover{
+    color:white;
+    text-decoration: none;
+    background-color:#5EC9FF;
+    border-color:#5EC9FF;
+}
+
+    /* ~~~~~~~~~~~~~~~~~~~~~~ */
+    /* ~~~~~ NAVIGATION ~~~~~ */
+    /* ~~~~~~~~~~~~~~~~~~~~~~ */
+.navbar {
+  margin-bottom: 0;
+  background-color: #FC5EF9;
+  z-index: 9999;
+  border: 0;
+  font-size: 12px !important;
+  line-height: 1.42857143 !important;
+  letter-spacing: 4px;
+  border-radius: 0;
+  font-family: Montserrat, sans-serif;
+}
+.navbar li a, .navbar .navbar-brand {
+  color: #fff !important;
+}
+.navbar-nav li a:hover, .navbar-nav li.active a {
+  color: #FC5EF9 !important;
+  background-color: #fff !important;
+}
+.navbar-default .navbar-toggle {
+  border-color: transparent;
+  color: #fff !important;
+}
+footer .glyphicon {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #FC5EF9;
+}
+.icon-bar{
+    background-color:white !important;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
+    background-color:transparent;
+    
+}
+
+    /* ~~~~~~~~~~~~~~~~~~ */
+    /* ~~~~~ OTHERS ~~~~~ */
+    /* ~~~~~~~~~~~~~~~~~~ */
+
 ::-webkit-scrollbar{
-    width:10px;
+    width:12px;
 }
 ::-webkit-scrollbar-thumb{
-    background-color:#2980b9;
+    background-color:#FC5EF9;
 }  
 ::-webkit-scrollbar-track {
-    background-color:darkgrey;
-}
-.indent{
-    text-indent: 50px; 
+    background-color:#5EC9FF;
 }
 
-.facebook-link{
-    color:#2980b9;
-    margin:0px 10px;
-    padding:5px 9px;
-    transition: color 1s, background-color 1s, border-color 1s;
-}
-.facebook-link:hover{
-    color:white;
-    background-color:#2980b9;
-    border-color:#2980b9;
-}
-.bio-link{
-    color:#2980b9;
-    margin:0px 10px;
-    padding:5px 7px;
-    transition: color 1s, background-color 1s, border-color 1s;
-}
-.bio-link:hover{
-    color:white;
-    background-color:#2980b9;
-    border-color:#2980b9;
-}
-.insta-link{
-    color:#2980b9;
-    margin:0px 10px;
-    padding:5px;
-    transition: color 1s, background-color 1s, border-color 1s;
-}
-.insta-link:hover{
-    color:white;
-    background-color:#2980b9;
-    border-color:#2980b9;
-}
-.nostylea{
-    color:white;
-    text-decoration: none
-}
-.nostylea:hover{
-    color:#2980b9 !important;
-    text-decoration: none
-}
-.blue{
-    color:#2980b9;
-}
+    /* ~~~~~~~~~~~~~~~~~~~~~~~~ */
+    /* ~~~~~ MEDIA SCREEN ~~~~~ */
+    /* ~~~~~~~~~~~~~~~~~~~~~~~~ */
 
-
-
-
-/* Fix for viewport being too wide below smallest breakpoint */
-@media (max-width: 767px) {
-    body > .container { overflow: hidden; } /* fix */
-    body > .container > * { overflow: visible; } /* reset back to normal */
+@media screen and (max-width: 768px) {
+.col-sm-4 {
+  text-align: center;
+  margin: 25px 0;
+}
+.btn-lg {
+    width: 100%;
+    margin-bottom: 35px;
+}
+}
+@media screen and (max-width: 480px) {
+.logo {
+    font-size: 150px;
+}
 }

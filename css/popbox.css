@@ -23,7 +23,6 @@
   visibility: visible;
   opacity: 1;
 }
-
 .popup {
     margin: 150px auto;
     padding: 20px;
@@ -51,13 +50,26 @@
   color: #2980b9;
 }
 .popup .content {
-    max-height: 80vh;
+    max-height: 60vh;
     overflow-y: scroll;
 }
 .popuph2{
     color:#2980b9 !important;
     text-align: center;
 }
+.bio-link{
+    color:#FF5C79;
+    margin:0px 10px;
+    padding:5px 7px;
+    transition: color 1s, background-color 1s, border-color 1s;
+    font-size:1.5em;
+}
+.bio-link:hover{
+    color:white;
+    background-color:#FF5C79;
+    border-color:#FF5C79;
+}
+
 @media screen and (max-width: 700px){
     .box{
     width: 70%;
