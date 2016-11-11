@@ -31,7 +31,7 @@
         
         <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Montserrat">
         <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato">
-        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
         <link rel="stylesheet" href="css/animate.css">
         <link rel="stylesheet" href="css/imagehover.css">
@@ -67,41 +67,41 @@
         </nav>
         
         <!-- Containter (Hero Section)-->
+        
         <div id="hero" class="container-fluid hero text-center">
-            <video muted autoplay="" loop="" poster="img/cover.png" id="bgvid">
-                <source src="img/videoplayback.mp4" type="video/mp4">
-            </video>
+            <div class="overlay1"></div>
+            <div class="overlay2"></div>
             <div class="parrallaxhero">
                 <ul id="scene">
                     <li class="layer" data-depth="0.00"><img src="img/Hero1.png" class="heroimg"></li>
                     <li class="layer" data-depth="0.40"><img src="img/Hero4.png" class="heroimg"></li>
                     <li class="layer" data-depth="0.60"><img src="img/Hero3.png" class="heroimg"></li>
-                    <li class="layer" data-depth="1.00"><img src="img/Hero2.png" class="heroimg"></li>
-                    
+                    <li class="layer" data-depth="1.00"><img src="img/Hero5.png" class="heroimg"></li>
                 </ul>
+                <a class="heroa" href="#">Learn More</a>
             </div>
         </div>
         
         <!-- Container (About Section) -->
-        <div id="about" class="container-fluid about text-center">
+        <div id="about" class="container about text-center">
             <div class="row aboutinner">
                 <h2 class="abouth2">About Us</h2>
                 <p class="aboutp">Youth Achieving Success is a unique career conference that assists high school students delve into the wide variety of job industries within their reach. Attendees will learn from the experiences of experts and professionals in Law, Finance, and Engineering among other industries. Attendees will also partake in a number of workshops throughout the day, each giving an in-depth view of the work in the selected career focus.</p>
                 
                 <div class="countdown row">
-                    <div class="col-sm-offset-2 col-sm-2 colorred">
+                    <div class="col-sm-offset-2 col-sm-2 coloryellow">
                         <h1 id="daysTime"></h1>
                         <p>Days</p>
                     </div>
-                    <div class="col-sm-2 herocountdownborder colorpink">
+                    <div class="col-sm-2 herocountdownborder colorred">
                         <h1 id="hoursTime"></h1>
                         <p>Hours</p>
                     </div>
-                    <div class="col-sm-2 herocountdownborder colorblue">
+                    <div class="col-sm-2 herocountdownborder colorpink">
                         <h1 id="minTime"></h1>
                         <p>Minutes</p>
                     </div>
-                    <div class="col-sm-2 herocountdownborder coloryellow">
+                    <div class="col-sm-2 herocountdownborder colorblue">
                         <h1 id="secsTime"></h1>
                         <p>Seconds</p>
                     </div>
@@ -113,49 +113,32 @@
         </div>
             
         <!-- Container (Goal Section)-->
-        <div class="container-fluid Goal">
-            <div class="row text-center GoalFlex">
-                <div class="col-sm-6 Network">
-                    <div class="NetworkWrapper">
-                    <i class="fa fa-briefcase NetworkI"></i>
-                    <h1 class="Goalh1">Build your corporate network</h1>
-                    <p class="Goalp">
-                        True learning can only occur when you are able to express your curiosity. The emphasis on developing personal connections with each and every speaker is what makes YAS a riveting experience for all attendees.
-                    </p>
+        <div class="row Goal">
+                <div class="container text-center">
+                    <div class="col-sm-3">
+                        <i class="fa fa-heart PassionI"></i>
+                        <h1 class="Goalh1">Discover your Passion</h1>
+                        <a href="#Gpopup1"><i class="fa fa-plus bio-link"></i></a>
                     </div>
-                </div>
-                <div class="col-sm-6 Passion">
-                    <div class="PassionWrapper">
-                    <i class="fa fa-heart PassionI"></i>
-                    <h1 class="Goalh1">Discover your passion</h1>
-                    <p class="Goalp">
-                        YAS understands that becoming a doctor is not for everyone. With an incredible range of career focuses, you are bound to take a deep interest the job industries presented to you.
-                    </p>
+                    <div class="col-sm-3">
+                        <i class="fa fa-globe ExperienceI"></i>
+                        <h1 class="Goalh1">Learn Through Experience</h1>
+                        <a href="#Gpopup2"><i class="fa fa-plus bio-link"></i></a>
                     </div>
-                </div>
-            </div>
-            <div class="row text-center GoalFlex1">
-                <div class="col-sm-6 Dream">
-                    <div class="DreamWrapper">
-                    <i class="fa fa-compass DreamI"></i>
-                    <h1 class="Goalh1">Realize your dream</h1>
-                    <p class="Goalp">
-                        As part of a promise to ensure success in your future, YAS is diversifying efforts to do exactly that. The conference helps put you in contact with top jobs in the industry, and provides one deserving attendee with a YAS Scholarship.
-                    </p>
+                     <div class="col-sm-3">
+                        <i class="fa fa-briefcase NetworkI"></i>
+                        <h1 class="Goalh1">Build your Network</h1>
+                         <a href="#Gpopup3"><i class="fa fa-plus bio-link"></i></a>
                     </div>
-                </div>
-                <div class="col-sm-6 Experience">
-                    <div class="ExperienceWrapper">
-                    <i class="fa fa-globe ExperienceI"></i>
-                    <h1 class="Goalh1">Learn Through Experience</h1>
-                    <p class="Goalp">
-                        Reading about a Lawyer's day-to-day life is not sufficient in our time. YAS offers incredible speakers who have the potential to make you rethink jobs in new dimensions.
-                    </p>
+                    <div class="col-sm-3">
+                        <i class="fa fa-compass DreamI"></i>
+                        <h1 class="Goalh1">Realize your Dream</h1>
+                        <a href="#Gpopup4"><i class="fa fa-plus bio-link"></i></a>
                     </div>
+                    
                 </div>
             </div>
-        </div>
-
+        
         <!-- Container (Speakers Section) -->
         <div id="speakers" class="container speakers text-center">
             <h2 class="speakerh2">SPEAKERS</h2>
@@ -164,13 +147,13 @@
             <div class="row speakerrow1">
                 <div class="col-sm-offset-2 col-sm-4">
                     <img src="img/charles.jpg" class="fullwidth speakerimg">
-                    <h4 class="speakerh4"> TBA </h4>
+                    <h4 class="speakerh4">Entrepreneurship</h4>
                     <p class="speakerp"> TBA </p>
                     <a href="#popup1"><i class="fa fa-plus bio-link"></i></a>
                 </div>
                 <div class="col-sm-4">
                     <img src="img/charles.jpg" class="fullwidth speakerimg">
-                    <h4> TBA </h4>
+                    <h4>Politician</h4>
                     <p> TBA </p>
                     <a href="#popup1"><i class="fa fa-plus bio-link"></i></a>
                 </div>
@@ -178,19 +161,19 @@
             <div class="row speakerrow2">
                 <div class="col-sm-4">
                     <img src="img/charles.jpg" class="fullwidth speakerimg">
-                    <h4> TBA </h4>
+                    <h4>Law</h4>
                     <p> TBA </p>
                     <a href="#popup1"><i class="fa fa-plus bio-link"></i></a>
                 </div>
                 <div class="col-sm-4">
                     <img src="img/charles.jpg" class="fullwidth speakerimg">
-                    <h4> TBA </h4>
+                    <h4> Medicine </h4>
                     <p> TBA </p>
                     <a href="#popup1"><i class="fa fa-plus bio-link"></i></a>
                 </div>
                 <div class="col-sm-4">
                     <img src="img/charles.jpg" class="fullwidth speakerimg">
-                    <h4> TBA </h4>
+                    <h4> Engineering </h4>
                     <p> TBA </p>
                     <a href="#popup1"><i class="fa fa-plus bio-link"></i></a>
                 </div>
@@ -199,19 +182,19 @@
             <div class="row speakerrow3">
                 <div class="col-sm-4">
                     <img src="img/charles.jpg" class="fullwidth speakerimg">
-                    <h4> TBA </h4>
+                    <h4> Technology </h4>
                     <p> TBA </p>
                     <a href="#popup1"><i class="fa fa-plus bio-link"></i></a>
                 </div>
                 <div class="col-sm-4">
                     <img src="img/charles.jpg" class="fullwidth speakerimg">
-                    <h4> TBA </h4>
+                    <h4> Journalism </h4>
                     <p> TBA </p>
                     <a href="#popup1"><i class="fa fa-plus bio-link"></i></a>
                 </div>
                 <div class="col-sm-4">
                     <img src="img/charles.jpg" class="fullwidth speakerimg">
-                    <h4> TBA </h4>
+                    <h4> Culinary Arts </h4>
                     <p> TBA </p>
                     <a href="#popup1"><i class="fa fa-plus bio-link"></i></a>
                 </div>
@@ -276,12 +259,12 @@
         <div id="staff" class="container text-center">
             <div class="panel-group" id="accordion1">
                 <div class="panel panel-default">
-                    <div class="panel-heading">
+                    <div class="panel-heading panel-yellow">
                         <h4 class="panel-title">
                             <a data-toggle="collapse" data-parent="#accordion1" href="#collapse5">Board Members</a>
                         </h4>
                     </div>
-                    <div id="collapse5" class="panel-collapse collapse in">
+                    <div id="collapse5" class="panel-collapse collapse">
                         <div class="panel-body">
                             <div class="col-sm-offset-3 col-sm-3">
                                 <img src="img/charles.jpg" class="fullwidth">
@@ -300,43 +283,43 @@
                     </div>
                 </div>
                 <div class="panel panel-default">
-                    <div class="panel-heading">
+                    <div class="panel-heading panel-red">
                         <h4 class="panel-title">
                             <a data-toggle="collapse" data-parent="#accordion1" href="#collapse6">Executive Team</a>
                         </h4>
                     </div>
-                    <div id="collapse6" class="panel-collapse collapse">
+                    <div id="collapse6" class="panel-collapse collapse in">
                         <div class="panel-body">
                             <div class="row">
                                 <div class="col-sm-offset-1 col-sm-2">
                                     <img src="img/charles.jpg" class="fullwidth">
                                     <h4>Charles Balcita</h4>
-                                    <p>President</p>
+                                    <p>Chair</p>
                                     <a href="#Epopup1"><i class="fa fa-plus bio-link"></i></a>
                                 </div>
                                 <div class="col-sm-2">
                                     <img src="img/charles.jpg" class="fullwidth">
                                     <h4>Stephanie Chen</h4>
-                                    <p>President</p>
-                                    <a href="#Epopup1"><i class="fa fa-plus bio-link"></i></a>
+                                    <p>Vice Chair</p>
+                                    <a href="#Epopup2"><i class="fa fa-plus bio-link"></i></a>
                                 </div>
                                 <div class="col-sm-2">
                                     <img src="img/charles.jpg" class="fullwidth">
                                     <h4>Wendy Li</h4>
-                                    <p>President</p>
-                                    <a href="#Epopup1"><i class="fa fa-plus bio-link"></i></a>
+                                    <p>Co-director of Outreach</p>
+                                    <a href="#Epopup3"><i class="fa fa-plus bio-link"></i></a>
                                 </div>
                                 <div class="col-sm-2">
                                     <img src="img/charles.jpg" class="fullwidth">
                                     <h4>Sarah Buddhason</h4>
-                                    <p>President</p>
-                                    <a href="#Epopup1"><i class="fa fa-plus bio-link"></i></a>
+                                    <p>Associate Director</p>
+                                    <a href="#Epopup4"><i class="fa fa-plus bio-link"></i></a>
                                 </div>
                                 <div class="col-sm-2">
                                     <img src="img/charles.jpg" class="fullwidth">
                                     <h4>Henry Cao</h4>
-                                    <p>President</p>
-                                    <a href="#Epopup1"><i class="fa fa-plus bio-link"></i></a>
+                                    <p>Director of Logistics</p>
+                                    <a href="#Epopup5"><i class="fa fa-plus bio-link"></i></a>
                                 </div>
                                 <div class="col-sm-1"></div>
                             </div>
@@ -344,40 +327,40 @@
                                 <div class="col-sm-offset-1 col-sm-2">
                                     <img src="img/charles.jpg" class="fullwidth">
                                     <h4>Carol Wang</h4>
-                                    <p>President</p>
-                                    <a href="#Epopup1"><i class="fa fa-plus bio-link"></i></a>
+                                    <p>Director of Finance and Sponsorship</p>
+                                    <a href="#Epopup6"><i class="fa fa-plus bio-link"></i></a>
                                 </div>
                                 <div class="col-sm-2">
                                     <img src="img/charles.jpg" class="fullwidth">
                                     <h4>Gamay Ngai</h4>
-                                    <p>President</p>
-                                    <a href="#Epopup1"><i class="fa fa-plus bio-link"></i></a>
+                                    <p>Director of Marketing</p>
+                                    <a href="#Epopup7"><i class="fa fa-plus bio-link"></i></a>
                                 </div>
                                 <div class="col-sm-2">
                                     <img src="img/charles.jpg" class="fullwidth">
                                     <h4>Kenny Jin</h4>
-                                    <p>President</p>
-                                    <a href="#Epopup1"><i class="fa fa-plus bio-link"></i></a>
+                                    <p>Co-Director of Finance and Sponsorship</p>
+                                    <a href="#Epopup8"><i class="fa fa-plus bio-link"></i></a>
                                 </div>
                                 <div class="col-sm-2">
                                     <img src="img/charles.jpg" class="fullwidth">
                                     <h4>Phyllis Lesnikov</h4>
-                                    <p>President</p>
-                                    <a href="#Epopup1"><i class="fa fa-plus bio-link"></i></a>
+                                    <p>Co-Director of Outreach</p>
+                                    <a href="#Epopup9"><i class="fa fa-plus bio-link"></i></a>
                                 </div>
                                 <div class="col-sm-2">
                                     <img src="img/charles.jpg" class="fullwidth">
                                     <h4>Andy Wang</h4>
-                                    <p>President</p>
+                                    <p>Director of Information Technology</p>
                                     <a href="#Epopup1"><i class="fa fa-plus bio-link"></i></a>
                                 </div>
-                                <div class="col-sm-1"></div>
+                                <div class="col-sm-10"></div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="panel panel-default">
-                    <div class="panel-heading">
+                    <div class="panel-heading panel-pink">
                         <h4 class="panel-title">
                             <a data-toggle="collapse" data-parent="#accordion1" href="#collapse7">District Managers</a>
                         </h4>
@@ -389,7 +372,7 @@
                     </div>
                 </div>
                 <div class="panel panel-default">
-                    <div class="panel-heading">
+                    <div class="panel-heading panel-blue">
                         <h4 class="panel-title">
                             <a data-toggle="collapse" data-parent="#accordion1" href="#collapse8">Ambassadors</a>
                         </h4>
@@ -491,6 +474,45 @@
             </div>
         </div> 
         
+        <!-- Popups Goals -->
+        <div>
+            <div id="Gpopup1" class="overlay">
+                <div class="popup"><br>
+                    <h2 class="popuph2">Discover your passion</h2>
+                    <a class="close" href="#Goal">&times;</a>
+                    <div class="content">
+                        <p class="indent">YAS understands that becoming a doctor is not for everyone. With an incredible range of career focuses, you are bound to take a deep interest the job industries presented to you.</p> 
+                    </div>
+                </div>
+            </div>
+            <div id="Gpopup2" class="overlay">
+                <div class="popup"><br>
+                    <h2 class="popuph2">Learn Through Experience</h2>
+                    <a class="close" href="#Goal">&times;</a>
+                    <div class="content">
+                        <p class="indent">Reading about a Lawyer's day-to-day life is not sufficient in our time. YAS offers incredible speakers who have the potential to make you rethink jobs in new dimensions.</p> 
+                    </div>
+                </div>
+            </div>
+            <div id="Gpopup3" class="overlay">
+                <div class="popup"><br>
+                    <h2 class="popuph2">Realize your Dream</h2>
+                    <a class="close" href="#Goal">&times;</a>
+                    <div class="content">
+                        <p class="indent">True learning can only occur when you are able to express your curiosity. The emphasis on developing personal connections with each and every speaker is what makes YAS a riveting experience for all attendees.</p> 
+                    </div>
+                </div>
+            </div>
+            <div id="Gpopup4" class="overlay">
+                <div class="popup"><br>
+                    <h2 class="popuph2">Executive Member</h2>
+                    <a class="close" href="#Goal">&times;</a>
+                    <div class="content">
+                        <p class="indent">As part of a promise to ensure success in your future, YAS is diversifying efforts to do exactly that. The conference helps put you in contact with top jobs in the industry, and provides one deserving attendee with a YAS Scholarship.</p> 
+                    </div>
+                </div>
+            </div>
+        </div>
 <!-- ********************************************* -->
         
         <!-- Add Google Maps -->
@@ -553,7 +575,7 @@
         <script src="js/customConfTimer.js"></script>
         <script type="text/javascript">countdownConf();</script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
         <script src="js/parallax.js"></script>
         <script type="text/javascript">
             var scene = document.getElementById('scene');

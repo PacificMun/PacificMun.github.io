@@ -47,18 +47,20 @@
   color: #333;
 }
 .popup .close:hover {
-  color: #2980b9;
+  color: #FFD65C;
 }
 .popup .content {
+    text-align: center;
     max-height: 60vh;
-    overflow-y: scroll;
+    max-width: 80%;
+    padding-left:20%;
 }
 .popuph2{
-    color:#2980b9 !important;
+    color:#FFD65C !important;
     text-align: center;
 }
 .bio-link{
-    color:#FF5C79;
+    color:#FFD65C;
     margin:0px 10px;
     padding:5px 7px;
     transition: color 1s, background-color 1s, border-color 1s;
@@ -66,8 +68,8 @@
 }
 .bio-link:hover{
     color:white;
-    background-color:#FF5C79;
-    border-color:#FF5C79;
+    background-color:#FFD65C;
+    border-color:#FFD65C;
 }
 
 @media screen and (max-width: 700px){

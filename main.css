@@ -53,9 +53,9 @@ h2 {
 .hero{
     height:100vh;
     text-align: center;
-   /* background-image: url(img/background.jpg);
+    background-image: url(img/Backimg.JPG);
     background-size: cover;
-    background-repeat: no-repeat; */
+    background-repeat: no-repeat; 
 }
 .heroimg{
     max-width: 80%;
@@ -63,52 +63,77 @@ h2 {
 }
 .parrallaxhero{
     position:absolute;
-    top:50%;
+    top:60%;
     left:50%;
     transform: translate(-50%,-50%);
 }
-
-video{
+.heroa{
+    color:white;
+    border:3px solid white;
+    padding:15px 25px;
     position:absolute;
-    top:46vh;
+    top:70%;
     left:50%;
-    min-width:100%;
-    min-height:100%;
-    width:auto;
-    height:auto;
-    z-index:-100;
-    transform: translate(-50%, -50%);
-    background-size: cover;
+    transform: translate(-50%,-50%);
+    transition: background-color 1s, border-color 1s;
 }
-
-
-
-
+.heroa:hover{
+    color:white;
+    text-decoration: none;
+    background-color:#FFD65C;
+    border-color:#FFD65C;
+}
+.overlay1{
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    background-color:rgba(225,214,92,0.2);
+}
+.overlay2{
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    background-color:rgba(128,128,128,0.5);
+}
     /* ~~~~~~~~~~~~~~~~~ */
     /* ~~~~~ ABOUT ~~~~~ */
     /* ~~~~~~~~~~~~~~~~~ */
+.about{
+    padding:100px 0px;
+}
 .aboutinner{
-    padding: 25px 100px;
 }
 .abouth2{
     font-size:2em;
     color:black;
 }
 .aboutp{
-    
+     padding: 25px 100px;
 }
 
     /* ~~~~~~~~~~~~~~~~ */
     /* ~~~~~ GOAL ~~~~~ */
     /* ~~~~~~~~~~~~~~~~ */
 .Goal{
-    padding:0px 10px;
+    background-image:url(img/ubc1.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    padding:100px 0px;
 }
 .GoalFlex{
      display: flex;
 }
 .GoalFlex1{
      display: flex;
+}
+.Goalh1{
+    font-size: 30px;
+    
 }
 .NetworkI{
     font-size: 5em;
@@ -145,7 +170,7 @@ video{
     color:white;
     border:5px solid white;
     border-radius:100px;
-    padding:20px 25px;
+    padding:25px 30px;
     transition:color 2s, background-color 2s, transform 2s;
 }
 .DreamI:hover{
@@ -157,7 +182,7 @@ video{
     border:3px solid white;
     margin-top:15px;
     margin-bottom:15px;
-     padding:50px 55px;
+    padding:50px 55px;
     background-color: rgba(94,201,255,0.2);
     transition: background-color 2s;
 }
@@ -205,7 +230,7 @@ video{
     color:white;
     border:5px solid white;
     border-radius:100px;
-    padding:20px 25px;
+    padding:25px 30px;
     transition:color 2s, background-color 2s, transform 2s;
 }
 .ExperienceI:hover{
@@ -329,6 +354,37 @@ video{
 .FAQA:visited{
     color:white !important;
 }
+    /* ~~~~~~~~~~~~~~~~~ */
+    /* ~~~~~ STAFF ~~~~~ */
+    /* ~~~~~~~~~~~~~~~~~ */
+.panel-yellow{
+    background-color:#FFD65C !important;
+    color:white !important;
+}
+.panel-red{
+    background-color:#FF5C79 !important;
+    color:white !important;
+}
+.panel-pink{
+    background-color:#FF5CFF !important;
+    color:white !important;
+}
+.panel-blue{
+    background-color:#5EC9FF !important;
+    color:white !important;
+}
+.colorred{
+   color: #FF5C79;
+}
+.colorblue{
+   color: #5EC9FF;
+}
+.coloryellow{
+   color: #FFD65C;
+}
+.colorpink{
+   color: #FF5CFF;
+}
 
     /* ~~~~~~~~~~~~~~~~~~~ */
     /* ~~~~~ CONTACT ~~~~~ */
@@ -386,7 +442,7 @@ video{
     /* ~~~~~~~~~~~~~~~~~~~~~~ */
 .navbar {
   margin-bottom: 0;
-  background-color: #FC5EF9;
+  background-color: #FFD65C;
   z-index: 9999;
   border: 0;
   font-size: 12px !important;
@@ -399,7 +455,7 @@ video{
   color: #fff !important;
 }
 .navbar-nav li a:hover, .navbar-nav li.active a {
-  color: #FC5EF9 !important;
+  color: #FFD65C !important;
   background-color: #fff !important;
 }
 .navbar-default .navbar-toggle {
@@ -409,7 +465,7 @@ video{
 footer .glyphicon {
   font-size: 20px;
   margin-bottom: 20px;
-  color: #FC5EF9;
+  color: #FFD65C;
 }
 .icon-bar{
     background-color:white !important;
@@ -427,10 +483,10 @@ footer .glyphicon {
     width:12px;
 }
 ::-webkit-scrollbar-thumb{
-    background-color:#FC5EF9;
+    background-color:#FFD65C;
 }  
 ::-webkit-scrollbar-track {
-    background-color:#5EC9FF;
+    background-color:darkgrey;
 }
 
     /* ~~~~~~~~~~~~~~~~~~~~~~~~ */
