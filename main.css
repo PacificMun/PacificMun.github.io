@@ -49,7 +49,7 @@ h2 {
 
     /* ~~~~~~~~~~~~~~~~ */
     /* ~~~~~ HERO ~~~~~ */
-    /* ~~~~~~~~~~~~~~~~ */
+    /* 
 .hero{
     height:100vh;
     text-align: center;
@@ -98,6 +98,90 @@ h2 {
     top: 0;
     left: 0;
     background-color:rgba(128,128,128,0.5);
+}
+*/
+.bg-1 {
+  color: #ffffff;
+}
+.hero{
+    height:100vh;
+    text-align: center;
+    padding-top:15vh;
+    background-image: url(../img/Backpen.jpg);
+    background-size: cover;
+}
+.logohero{  
+    font-size:5em;
+}
+.herop{
+    font-size:2vmax;
+    
+    margin:0;
+}
+.herop1{
+    font-size:2vmax;
+    margin:0;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+.heroh3{
+    margin-top:-50px;
+    font-size:7vw;
+    margin:0;
+}
+.heroa{
+    padding-top:10px;
+    padding-bottom:15px;
+    padding-right:55px;
+    padding-left:55px;
+    border: 1px solid white;
+    color:white !important;
+    transition: background-color 1s, color 1s;
+    font-size:20px;
+}
+.heroa:hover{
+    color:#2980b9 !important;
+    background-color:white;
+    text-decoration:none;
+    font-size:20px;
+}
+.Herologo{
+    width:200px;
+    padding-bottom: 50px;
+    padding-top: 75px;
+    z-index: 1000;
+}
+.overlay{
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    background-color:rgba(41,128,185,0.5);
+}
+
+@media screen and (max-width: 700px){
+    .heroh3{
+        font-size:60px;
+    }
+    .herop{
+        font-size:20px;
+    }
+    .herop1{
+        font-size:20px;
+    }
+    .heroa{
+        font-size:20px;
+    }
+    .heroa:hover{
+        font-size:20px;
+    }
+    .hero{
+        background-image: url(../img/Backpen.jpg);
+        background-size: cover;
+    }
+    video{
+        visibility: hidden;
+    }
 }
     /* ~~~~~~~~~~~~~~~~~ */
     /* ~~~~~ ABOUT ~~~~~ */
@@ -269,6 +353,13 @@ h2 {
 .speakers{
     padding:15px 0px;
 }
+.speakeri1{
+    font-size: 5em;
+    color:black;
+    border-radius: 100px;
+    border:5px solid black;
+    padding:25px 25px;
+}
 .speakerrow1{
     padding:15px 0px;
 }
@@ -310,6 +401,10 @@ h2 {
 .infoscheduleimg{
     width:100%;
     max-width: 400px;
+}
+.infoh2{
+    color:white;
+    font-size:4em;
 }
 .FAQpanel-heading{
     padding:25px 0px;
@@ -357,6 +452,14 @@ h2 {
     /* ~~~~~~~~~~~~~~~~~ */
     /* ~~~~~ STAFF ~~~~~ */
     /* ~~~~~~~~~~~~~~~~~ */
+.staffh2{
+    color:black;
+    font-size: 2em;
+}
+.staffbody{
+    padding-bottom:25px;
+}
+
 .panel-yellow{
     background-color:#FFD65C !important;
     color:white !important;
@@ -454,10 +557,6 @@ h2 {
 .navbar li a, .navbar .navbar-brand {
   color: #fff !important;
 }
-.navbar-nav li a:hover, .navbar-nav li.active a {
-  color: #FFD65C !important;
-  background-color: #fff !important;
-}
 .navbar-default .navbar-toggle {
   border-color: transparent;
   color: #fff !important;
@@ -481,6 +580,7 @@ footer .glyphicon {
 
 ::-webkit-scrollbar{
     width:12px;
+    overflow: auto;
 }
 ::-webkit-scrollbar-thumb{
     background-color:#FFD65C;

@@ -54,6 +54,7 @@
     max-height: 60vh;
     max-width: 80%;
     padding-left:20%;
+    overflow-y: scroll;
 }
 .popuph2{
     color:#FFD65C !important;
