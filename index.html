@@ -38,11 +38,69 @@
         <link rel="stylesheet" href="css/imagehover.css">
         <link rel="stylesheet" href="css/popbox.css">
         <link rel="stylesheet" href="main.css">
+        <style>
+            #loader {
+              position: absolute;
+              left: 50%;
+              top: 50%;
+              z-index: 1;
+              width: 150px;
+              height: 150px;
+              margin: -75px 0 0 -75px;
+              border: 16px solid #f3f3f3;
+              border-radius: 50%;
+              border-top: 16px solid #FFD65C;
+              border-right: 16px solid #FF5C79;
+              border-bottom: 16px solid #FF5CFF;
+              border-left: 16px solid #5EC9FF;
+              width: 120px;
+              height: 120px;
+              -webkit-animation: spin 2s linear infinite;
+              animation: spin 2s linear infinite;
+            }
+
+            @-webkit-keyframes spin {
+              0% { -webkit-transform: rotate(0deg); }
+              100% { -webkit-transform: rotate(360deg); }
+            }
+
+            @keyframes spin {
+              0% { transform: rotate(0deg); }
+              100% { transform: rotate(360deg); }
+            }
+
+            /* Add animation to "page content" */
+            .animate-bottom {
+              position: relative;
+              -webkit-animation-name: animatebottom;
+              -webkit-animation-duration: 1s;
+              animation-name: animatebottom;
+              animation-duration: 1s
+            }
+
+            @-webkit-keyframes animatebottom {
+              from { bottom:-100px; opacity:0 }
+              to { bottom:0px; opacity:1 }
+            }
+
+            @keyframes animatebottom {
+              from{ bottom:-100px; opacity:0 }
+              to{ bottom:0; opacity:1 }
+            }
+            
+            #myDiv {
+              display: none;
+            }
+        </style>
+        
     </head>
     
 <!-- ********************************************* -->
     
-    <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+    <body id="myPage" onload="myFunction()" data-spy="scroll" data-target=".navbar" data-offset="60">
+        
+        <div id="loader"></div>
+        <div style="display:none;" id="myDiv" class="animate-bottom">
         <!-- Navigation -->
         <nav class="navbar navbar-default navbar-fixed-top">
             <div class="container">
@@ -532,7 +590,7 @@
             </a>
             <p>YAS CONFERENCE 2017</p>
         </footer>
-
+        </div>
  <!-- ********************************************* -->
         
         <!-- Popups Speakers -->
@@ -568,6 +626,7 @@
         </div> 
         
         <!-- Popups Executive Team -->
+        <div>
         <div id="Epopup1" class="overlay">
             <div class="popup"><br>
                 <h2 class="popuph2">Executive Member</h2>
@@ -680,7 +739,7 @@ Since Kenny is determined to pursue his post-secondary education in the field of
                 </div>
             </div>
         </div> 
-        
+        </div>
         
         <!-- Popups Goals -->
         <div>
@@ -800,6 +859,19 @@ Since Kenny is determined to pursue his post-secondary education in the field of
         <script type="text/javascript">
             var scene = document.getElementById('scene');
             var parallax = new Parallax(scene);
+        </script>
+        
+        <script>
+            var myVar;
+
+            function myFunction() {
+                myVar = setTimeout(showPage, 8000);
+            }
+
+            function showPage() {
+              document.getElementById("loader").style.display = "none";
+              document.getElementById("myDiv").style.display = "block";
+            }
         </script>
         
     </body>
