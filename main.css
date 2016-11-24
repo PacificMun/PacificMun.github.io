@@ -140,7 +140,7 @@ h2 {
     font-size:20px;
 }
 .heroa:hover{
-    color:#2980b9 !important;
+    color:#FFD65C !important;
     background-color:white;
     text-decoration:none;
     font-size:20px;
@@ -203,7 +203,7 @@ h2 {
     /* ~~~~~ GOAL ~~~~~ */
     /* ~~~~~~~~~~~~~~~~ */
 .Goal{
-    background-image:url(img/ubc1.jpg);
+    background-image:url(img/Backimg.JPG);
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
@@ -516,7 +516,7 @@ h2 {
     /* ~~~~~ REGISTRATION ~~~~~ */
     /* ~~~~~~~~~~~~~~~~~~~~~~~~ */
 .registration{
-    background-image: url(img/ubc1.jpg);
+    background-image: url(img/slide2.jpg);
     background-size: cover;
     background-attachment: fixed;
     background-position: center center;
@@ -556,6 +556,10 @@ h2 {
 }
 .navbar li a, .navbar .navbar-brand {
   color: #fff !important;
+}
+.navbar-default .navbar-nav>.active>a{
+    color:#FFD65C !important;
+    background-color:#fff;
 }
 .navbar-default .navbar-toggle {
   border-color: transparent;
